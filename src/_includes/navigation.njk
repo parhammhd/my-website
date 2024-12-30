@@ -1,0 +1,12 @@
+<nav>
+    {{
+      collections.all |
+      eleventyNavigation |
+      eleventyNavigationToHtml({
+        listClass: "nav-list",
+        anchorClass: "nav-link",
+        activeAnchorClass: "active",
+        activeKey: eleventyNavigation.key
+      }) | safe
+    }}
+  </nav>

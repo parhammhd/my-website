@@ -1,0 +1,164 @@
+:root,
+::backdrop {
+  --sans-font: Lora, Georgia, serif; /* For body */
+  --mono-font: 'Fira Code', Consolas, monospace; /* For code blocks */
+  --heading-font: Montserrat, 'Helvetica Neue', sans-serif; /* For headings */
+  --standard-border-radius: 5px;
+
+  /* Default (light) theme */
+  --bg: #f9f5e3;
+  --accent-bg: #e8e3d1;
+  --text: #1a1a1a;
+  --text-light: #4f4f4f;
+  --border: #c6c2b7;
+  --accent: #003366;
+  --accent-hover: #004080;
+  --accent-text: var(--bg);
+  --code: #cc3300;
+  --preformatted: #444444;
+  --marked: #ffd966;
+  --disabled: #e3e1db;
+  --nav-active-bg: var(--bg);
+  --nav-acive-text: var(--text);
+  --button-bg: var(--accent);
+  --button-text: var(--bg);
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root,
+  ::backdrop {
+    color-scheme: dark;
+    --bg: #2b303b;
+    --accent-bg: #1c1e26;
+    --text: #f0ece2;
+    --text-light: #d4d2cc;
+    --border: #646a73;
+    --accent: #0e4c92;
+    --accent-hover: #1473d1;
+    --accent-text: var(--bg);
+    --code: #d3754a;
+    --preformatted: #e0e0e0;
+    --disabled: #2b303b;
+    --nav-active-bg: var(--accent);
+  --nav-acive-text: var(--text);
+  --button-bg: var(--accent);
+  --button-text: var(--text);
+  }
+  /* Add a bit of transparency so light media isn't so glaring in dark mode */
+  img,
+  video {
+    opacity: 0.9;
+  }
+}
+
+.text-icon {
+  vertical-align: -0.25em; /* Adjust to lift the icon slightly */
+  margin-right: 0.1em; /* Spacing between the icon and the text */
+  margin-left: 1em;
+}
+
+
+button,
+.button,
+a.button, /* extra specificity to override a */
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  border: 1px solid var(--button-bg);
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  padding: 0.5rem 0.9rem;
+  text-decoration: none;
+  line-height: normal;
+}
+
+/* Highlight active navigation link */
+.nav-link.active {
+    font-weight: bold; /* Make it bold */
+    background-color: var(--nav-active-bg); /* Use a custom background color */
+    color: var(--nav-acive-text); /* Use a custom color*/
+}
+
+
+/* Reduce nav side on mobile */
+@media only screen and (max-width: 720px) {
+    .nav-link.active {
+      background-color: transparent;
+    }
+  }
+  
+
+  body > footer {
+    margin-top: 4rem;
+    padding: 2rem 1rem 1.5rem 1rem;
+    color: var(--text-light);
+    font-size: 0.9rem;
+    text-align: left;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-left,
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .footer-left p,
+  .footer-right p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+  }
+
+  @media (max-width: 720px) {
+    body > footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    .footer-left,
+    .footer-right {
+        align-items: center;
+    }
+  }
+
+
+@font-face {
+    font-family: "Lora";
+    src: url("/fonts/Lora.woff2") format("woff2-variations");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("/fonts/Lora-italic.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-italic.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('/fonts/FiraCode-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}

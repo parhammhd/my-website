@@ -1,0 +1,14 @@
+{
+    "layout": "blogpost.njk",
+    "permalink": "/posts/{{ title | slugify }}/",
+    "author": { 
+      "name": "Parham", 
+      "href": "https://parham.dev" 
+    },
+    "twitter": { 
+      "account": "@ParhamM94" 
+    },
+    "mastodon": { 
+      "fediverseCreator": "@ParhamM94@mas.to" 
+    }
+  }

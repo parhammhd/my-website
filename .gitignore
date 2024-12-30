@@ -1,0 +1,18 @@
+# Ignore build outputs
+public/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore your .well-known folder
+/src/static/.well-known/
+
+# Ignore personal files
+/src/static/profile.jpg
+
+# Ignore pnpm-related files
+pnpm-lock.yaml
+
+# Ignore logs and temporary files
+*.log
+*.tmp

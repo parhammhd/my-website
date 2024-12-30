@@ -1,0 +1,27 @@
+---
+layout: base.njk
+title: "The Sweet Blog"
+description: "Dive into the latest posts on The Sweet Blog. Explore insightful stories and ideas."
+eleventyNavigation:
+  key: Posts
+  order: 2
+pagination:
+  data: collections.posts
+  size: 10
+  alias: blogposts
+  reverse: true
+---
+
+{{ content | safe }}
+
+{% for post in blogposts %}
+  <article>
+    <h4>{{ post.data.title }}</h4>
+
+    <p>{% icon "calendar-week", class="text-icon" %}{{ post.data.date | readableDate }}{% icon "user", class="text-icon" %}<a href="{{ post.data.author.href }}">{{ post.data.author.name }}</a></p>
+
+    <p>{{ post.data.description }}</p>
+
+    <a href="{{ post.url }}" class="button">Read on</a>
+  </article>
+{% endfor %}

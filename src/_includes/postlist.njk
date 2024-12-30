@@ -1,0 +1,46 @@
+{% if pagination.pages.length > 1 %}
+  <nav aria-label="Post pages">
+    <ol class="pagination">
+      <li>
+        {% if page.url != pagination.href.first %}
+          <a href="{{ pagination.href.first }}">First Page</a>
+        {% else %}
+          <span aria-disabled="true">First Page</span>
+        {% endif %}
+      </li>
+      <li>
+        {% if pagination.href.previous %}
+          <a href="{{ pagination.href.previous }}">Previous Page</a>
+        {% else %}
+          <span aria-disabled="true">Previous Page</span>
+        {% endif %}
+      </li>
+      <!-- Loop over pagination.pages array and add the pages to the list -->
+      {%- for pageEntry in pagination.pages %}
+        <li>
+          <a href="{{ pagination.hrefs[ loop.index0 ] }}"
+            {% if page.url == pagination.hrefs[ loop.index0 ] %}
+              aria-current="page"
+            {% endif %}
+          >
+            {{ loop.index }}
+          </a>
+        </li>
+      {%- endfor %}
+      <li>
+        {% if pagination.href.next %}
+          <a href="{{ pagination.href.next }}">Next Page</a>
+        {% else %}
+          <span aria-disabled="true">Next Page</span>
+        {% endif %}
+      </li>
+      <li>
+        {% if page.url != pagination.href.last %}
+          <a href="{{ pagination.href.last }}">Last Page</a>
+        {% else %}
+          <span aria-disabled="true">Last Page</span>
+        {% endif %}
+      </li>
+    </ol>
+  </nav>
+{% endif %}

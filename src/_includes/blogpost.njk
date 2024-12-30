@@ -1,0 +1,11 @@
+---
+layout: base.njk
+---
+
+<h2>{{ title }}</h2>
+
+<p>{% icon "calendar-week", class="text-icon" %}{{ date | readableDate }}{% icon "user", class="text-icon" %}<a href="{{ author.href }}">{{ author.name }}</a></p>
+
+<article>
+  {{ content | safe }}
+</article>

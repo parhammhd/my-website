@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ description }}">
+    <link rel="stylesheet" href="{{ '/css/simple.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/custom.css' | url }}">
+    <link rel="canonical" href="{{ page.url }}">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <header>
+      {% include 'header.njk' %}
+      {% include 'navigation.njk' %}
+    </header>
+
+    <main id="content">{{ content | safe }}</main>
+
+    <footer>{% include 'footer.njk' %}</footer>
+  </body>
+</html>
