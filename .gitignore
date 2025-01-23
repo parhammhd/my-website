@@ -9,6 +9,7 @@ node_modules/
 
 # Ignore personal files
 /src/static/profile.jpg
+/src/static/eventsEmailLogo.webp
 
 # Ignore pnpm-related files
 pnpm-lock.yaml
