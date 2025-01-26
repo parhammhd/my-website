@@ -28,6 +28,6 @@
     "markdown-it-collapsible": "^2.0.2",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-obsidian-callouts": "^0.3.1",
-    "simple-icons": "^14.3.0"
+    "simple-icons": "^14.4.0"
   }
 }
