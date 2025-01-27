@@ -4,7 +4,7 @@ title: "Curriculum Vitae - Parham"
 description: "Parham Mohammadi's CV"
 eleventyNavigation:
   key: CV
-  order: 3
+  order: 5
 ---
 
 This is hidden😄

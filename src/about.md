@@ -4,7 +4,7 @@ title: "About Me"
 description: "Learn more about the writer of The Sweet Blog!"
 eleventyNavigation:
   key: About
-  order: 4
+  order: 6
 ---
 
 ## About Me
