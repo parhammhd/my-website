@@ -2,4 +2,4 @@
 layout: posts.njk
 ---
 
-## TSB\: The Sweet Blog
+## The Sweet Blog

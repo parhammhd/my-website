@@ -58,6 +58,12 @@
   margin-left: 1em;
 }
 
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font);
+}
+
 
 button,
 .button,
@@ -143,22 +149,36 @@ input[type="button"] {
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/montserrat.woff2") format("woff2-variations");
-  font-weight: 100 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/montserrat-italic.woff2") format("woff2-variations");
-  font-weight: 100 900;
-  font-style: italic;
-}
-
-@font-face {
   font-family: 'Fira Code';
   src: url('/fonts/FiraCode-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
 }
