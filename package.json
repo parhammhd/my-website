@@ -12,22 +12,22 @@
   "type": "module",
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971",
+  "packageManager": "pnpm@10.9.0+sha512.0486e394640d3c1fb3c9d43d49cf92879ff74f8516959c235308f5a8f62e2e19528a65cdc2a3058f587cde71eba3d5b56327c8c33a97e4c4051ca48a10ca2d5f",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-img": "^6.0.1",
+    "@11ty/eleventy-img": "^6.0.2",
     "@11ty/eleventy-navigation": "^1.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@tabler/icons": "^3.31.0",
     "eleventy-plugin-icons": "^4.5.3",
-    "lucide-static": "^0.487.0",
+    "lucide-static": "^0.503.0",
     "markdown-it": "^14.1.0",
     "markdown-it-abbr": "^2.0.0",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-collapsible": "^2.0.2",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-obsidian-callouts": "^0.3.2",
-    "simple-icons": "^14.12.1"
+    "simple-icons": "^14.12.3"
   }
 }
