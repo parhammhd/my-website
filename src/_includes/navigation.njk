@@ -1,12 +1,16 @@
 <nav>
-    {{
-      collections.all |
-      eleventyNavigation |
-      eleventyNavigationToHtml({
-        listClass: "nav-list",
-        anchorClass: "nav-link",
-        activeAnchorClass: "active",
-        activeKey: eleventyNavigation.key
-      }) | safe
-    }}
-  </nav>
+  <ul class="nav-list">
+    {% for item in collections.all | eleventyNavigation %}
+      <li>
+        <a 
+          href="{{ item.url }}" 
+          class="nav-link{% if item.key == eleventyNavigation.key %} active{% endif %}"
+          {% if item.target %}target="{{ item.target }}"{% endif %}
+          {% if item.rel %}rel="{{ item.rel }}"{% endif %}
+        >
+          {{ item.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

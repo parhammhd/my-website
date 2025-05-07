@@ -4,12 +4,12 @@ import eleventyPluginIcons from 'eleventy-plugin-icons';
 import eleventyPluginNavigation from '@11ty/eleventy-navigation';
 import eleventyPluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import markdownIt from 'markdown-it';
+import markdownItAttrs from 'markdown-it-attrs';
 import markdownItAbbr from 'markdown-it-abbr';
 import markdownItAnchor from 'markdown-it-anchor';
 import markdownItCallouts from 'markdown-it-obsidian-callouts';
 import markdownItCollapsible from 'markdown-it-collapsible';
 import markdownItFootnote from 'markdown-it-footnote';
-
 
 export default async function(eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/css/');
@@ -87,6 +87,7 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.amendLibrary('md', (mdLib) =>
     mdLib
+      .use(markdownItAttrs)
       .use(markdownItAbbr)
       .use(markdownItAnchor)
       .use(markdownItCollapsible)
