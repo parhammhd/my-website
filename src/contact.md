@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: "Parham's Contact"
+title: "Parham's Contact Info"
 description: "Contact Parham"
 eleventyNavigation:
   key: Contact
