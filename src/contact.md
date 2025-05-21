@@ -16,7 +16,7 @@ You can send an Email to [contact@parham.dev](mailto:contact@parham.dev), I chec
 If you'd like to send an encrypted email, you can use my OpenPGP public key:
 
 - **OpenPGP fingerprint:** `DFD4B5CD9E24215533411AC6334480DD37E2F404`{style="word-break: break-word; white-space: pre-wrap;"}
-- **OpenPGP key:** [armored key](https://parham.dev/public.asc)
+- **OpenPGP key:** [armored key](/public.asc)
 - **Keyserver link:** [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/DFD4B5CD9E24215533411AC6334480DD37E2F404)
 
 ### Keyoxide
