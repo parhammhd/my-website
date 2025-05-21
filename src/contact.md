@@ -15,7 +15,7 @@ You can send an Email to [contact@parham.dev](mailto:contact@parham.dev), I chec
 
 If you'd like to send an encrypted email, you can use my OpenPGP public key:
 
-- **OpenPGP fingerprint:** `DFD4B5CD9E24215533411AC6334480DD37E2F404`
+- **OpenPGP fingerprint:** `DFD4B5CD9E24215533411AC6334480DD37E2F404`{style="word-break: break-word; white-space: pre-wrap;"}
 - **OpenPGP key:** [armored key](https://parham.dev/public.asc)
 - **Keyserver link:** [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/DFD4B5CD9E24215533411AC6334480DD37E2F404)
 
@@ -47,8 +47,8 @@ I have the following accounts on the Fediverse:
 
 ### Nostr
 
-- **Username (NIP-05):** `@parham.dev`
-- **Public key (npub):** `npub1mmuumn4keztaxxd4ntm9lmtq5yltc0rnsvfm7au87wghrj7t6vmsatq0n8`
+- **Username (NIP-05):** `_@parham.dev`{style="word-break: break-word; white-space: pre-wrap;"}
+- **Public key (npub):** `npub1mmuumn4keztaxxd4ntm9lmtq5yltc0rnsvfm7au87wghrj7t6vmsatq0n8`{style="word-break: break-word; white-space: pre-wrap;"}
 
 ### Additional Platforms
 
