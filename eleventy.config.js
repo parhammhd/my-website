@@ -23,6 +23,9 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
 
+  eleventyConfig.addFilter("iso", (value) => {
+    return new Date(value).toISOString();
+  });
   eleventyConfig.addFilter('toDateObj', (dateString) => new Date(dateString));
   eleventyConfig.addFilter('isoDate', (dateObj) => dateObj.toISOString());
   eleventyConfig.addFilter('longDate', (dateObj) => dateObj.toString());

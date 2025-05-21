@@ -3,7 +3,9 @@
     "permalink": "/posts/{{ title | slugify }}/",
     "author": { 
       "name": "Parham", 
-      "href": "https://parham.dev" 
+      "href": "https://parham.dev",
+      "uid": "https://parham.dev{{ page.url }}",
+      "url": "https://parham.dev{{ page.url }}"
     },
     "twitter": { 
       "account": "@ParhamM94" 

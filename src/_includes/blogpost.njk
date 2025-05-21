@@ -2,10 +2,20 @@
 layout: base.njk
 ---
 
-<h2>{{ title }}</h2>
+<article class="h-entry">
+  <h1 class="p-name">{{ title }}</h1>
 
-<p>{% icon "calendar-week", class="text-icon" %}{{ date | readableDate }}{% icon "user", class="text-icon" %}<a href="{{ author.href }}">{{ author.name }}</a></p>
+  <p class="post-meta">
+    <time class="dt-published" datetime="{{ date | iso }}">
+      {% icon "calendar-week", class="text-icon" %}{{ date | readableDate }}
+    </time>
+    <span class="p-author h-card">
+      {% icon "user", class="text-icon" %}
+      <a class="u-url u-uid" rel="author" href="{{ author.href }}">{{ author.name }}</a>
+    </span>
+  </p>
 
-<article>
-  {{ content | safe }}
+  <div class="e-content">
+    {{ content | safe }}
+  </div>
 </article>
