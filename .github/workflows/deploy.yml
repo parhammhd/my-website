@@ -1,4 +1,4 @@
-name: Deploy Site
+name: Deploy Static Site
 
 on:
   push:
@@ -13,7 +13,17 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
 
-      - name: Copy public folder to VPS and restart Apache
+      - name: Copy public folder to VPS
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          passphrase: ${{ secrets.SSH_PASSPHRASE }}
+          source: "public/*"
+          target: "/var/www/parham.dev/"
+
+      - name: Restart Apache
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.SSH_HOST }}
@@ -21,5 +31,4 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
           script: |
-            rsync -avzr --delete ./public/ /var/www/parham.dev/
             systemctl restart apache2
