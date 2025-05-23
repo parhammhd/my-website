@@ -68,6 +68,20 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(webmentionsPlugin, {
     domain: "parham.dev",
     token: process.env.WEBMENTION_IO_TOKEN,
+    cacheDirectory: "./_webmentioncache",
+    cacheTime: 3600,
+    truncate: true,
+    maxContentLength: 280,
+    truncationMarker: "&hellip;",
+    htmlContent: true,
+    useCanonicalTwitterUrls: true,
+    pageAliases: {},
+    mentionTypes: {
+      likes: ["like-of"],
+      reposts: ["repost-of"],
+      comments: ["in-reply-to"],
+      mentions: ["mention-of"],
+    },
   });
 
   eleventyConfig.addPlugin(feedPlugin, {

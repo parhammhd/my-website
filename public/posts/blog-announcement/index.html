@@ -145,6 +145,44 @@
   <!-- Add canonical post URL for u-url and u-uid -->
   <a class="u-url u-uid" href="/posts/blog-announcement/"></a>
 </article>
+
+<section class="webmention-form">
+  <h3>Reply with your own site</h3>
+  <p>
+    If you've written a reply or comment on your own website (or supported platform like Mastodon), paste its URL below to send a Webmention.
+  </p>
+
+  <form action="https://webmention.io/parham.dev/webmention" method="post">
+    <label for="source-url">
+      Your post URL:
+      <input type="url" name="source" id="source-url" placeholder="https://your-site.com/post" required="">
+    </label>
+
+    <input type="hidden" name="target" value="https://parham.dev/posts/blog-announcement/">
+    <button type="submit">Send Webmention</button>
+  </form>
+
+  <p class="form-help">
+    Don’t have your own site? You can also reply on Mastodon (or other fediverse platform) via <a target="_blank" rel="noopener" href="https://brid.gy">Bridgy</a>, and it will be shown here if it links to this post.
+  </p>
+</section>
+
+
+
+  <section class="webmentions">
+    
+    
+
+    
+
+    <h3>Replies</h3>
+    
+      <p>No replies yet.</p>
+    
+
+    
+  </section>
+
 </main>
 
     <div class="h-card" style="display: none;">
