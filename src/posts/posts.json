@@ -2,12 +2,12 @@
     "layout": "blogpost.njk",
     "permalink": "/posts/{{ title | slugify }}/",
     "author": { 
-      "name": "Parham", 
+      "name": "Parham Mohammadi", 
       "href": "https://parham.dev",
       "uid": "https://parham.dev{{ page.url }}",
       "url": "https://parham.dev{{ page.url }}"
     },
-    "twitter": { 
+    "x": { 
       "account": "@ParhamM94" 
     },
     "mastodon": { 

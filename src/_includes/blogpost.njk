@@ -9,13 +9,19 @@ layout: base.njk
     <time class="dt-published" datetime="{{ date | iso }}">
       {% icon "calendar-week", class="text-icon" %}{{ date | readableDate }}
     </time>
-    <span class="p-author h-card">
-      {% icon "user", class="text-icon" %}
-      <a class="u-url u-uid" rel="author" href="{{ author.href }}">{{ author.name }}</a>
+
+    <span class="p-author h-card" hidden>
+      <a class="u-url u-uid" rel="author" href="{{ author.href }}">
+        <img eleventy:ignore class="u-photo" src="/profile.jpg" alt="Parham Mohammadi" width="512" height="512" hidden>
+        {{ author.name }}
+      </a>
     </span>
   </p>
 
   <div class="e-content">
     {{ content | safe }}
   </div>
+
+  <!-- Add canonical post URL for u-url and u-uid -->
+  <a class="u-url u-uid" href="{{ page.url | url }}"></a>
 </article>
