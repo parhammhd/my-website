@@ -4,6 +4,7 @@ node_modules/
 # Ignore pnpm-related files
 pnpm-lock.yaml
 
-# Ignore logs and temporary files
+# Ignore logs, env files and temporary files
 *.log
 *.tmp
+*.env

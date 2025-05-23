@@ -1,8 +1,10 @@
+import "dotenv/config";
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import { feedPlugin } from '@11ty/eleventy-plugin-rss';
 import eleventyPluginIcons from 'eleventy-plugin-icons';
 import eleventyPluginNavigation from '@11ty/eleventy-navigation';
 import eleventyPluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import webmentionsPlugin from "eleventy-plugin-webmentions";
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
 import markdownItAbbr from 'markdown-it-abbr';
@@ -61,6 +63,11 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     // Plugin options go here
+  });
+
+  eleventyConfig.addPlugin(webmentionsPlugin, {
+    domain: "parham.dev",
+    token: process.env.WEBMENTION_IO_TOKEN,
   });
 
   eleventyConfig.addPlugin(feedPlugin, {
