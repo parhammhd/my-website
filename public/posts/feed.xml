@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>The Sweet Blog</title>
+  <subtitle>Dive into the latest posts on The Sweet Blog. Explore insightful stories and ideas.</subtitle>
+  <link href="https://parham.dev/posts/feed.xml" rel="self" />
+  <link href="https://parham.dev/posts/" />
+  <updated>2024-12-29T00:00:00Z</updated>
+  <id>https://parham.dev/posts/</id>
+  <author>
+    <name>Parham</name>
+    <email>me@parham.dev</email>
+  </author>
+  <entry>
+    <title>Blog Announcement!</title>
+    <link href="https://parham.dev/posts/blog-announcement/" />
+    <updated>2024-12-29T00:00:00Z</updated>
+    <id>https://parham.dev/posts/blog-announcement/</id>
+    <content type="html">&lt;h2 id=&quot;welcome-to-%E2%80%9Cthe-sweet-blog%E2%80%9D-%E2%80%94-my-new-blogging-journey!&quot; tabindex=&quot;-1&quot;&gt;Welcome to “The Sweet Blog” — My New Blogging Journey!&lt;/h2&gt;
+&lt;p&gt;Hello, world! 👋&lt;/p&gt;
+&lt;p&gt;I’m &lt;strong&gt;Parham&lt;/strong&gt;, and I’m beyond excited to finally start sharing my thoughts, ideas, and experiences with you here on my new blog, &lt;em&gt;The Sweet Blog&lt;/em&gt;! This is my first post, and it’s a bit of a mix between an introduction and a way to say, “Hey, I’m here!” 🎉&lt;/p&gt;
+&lt;h3 id=&quot;why-this-blog%3F&quot; tabindex=&quot;-1&quot;&gt;Why This Blog?&lt;/h3&gt;
+&lt;p&gt;I’ve always been fascinated by writing and sharing knowledge, but for some reason, I’ve never had a personal blog until now. Well, no more procrastination! I’ve decided to dive in headfirst, and I plan to write often about the things that excite me. Topics like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Programming &amp;amp; Software Engineering&lt;/strong&gt; – My career path, projects I’m working on, and interesting programming challenges I face.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Development&lt;/strong&gt; – Whether it’s front-end, back-end, or full-stack, I’ll be sharing thoughts on building things that work and look great on the web.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SmolWeb&lt;/strong&gt; – A topic I’ve recently discovered and am passionate about. Tiny, minimal websites that focus on simplicity and performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning Languages&lt;/strong&gt; – The joys and challenges of picking up new languages. It’s always been one of my personal interests, and I’ll be exploring it more here.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;my-commitment&quot; tabindex=&quot;-1&quot;&gt;My Commitment&lt;/h3&gt;
+&lt;p&gt;I’m still getting my footing, and this blog is very much a work-in-progress, but my goal is to keep improving and writing consistently. I’ll share my progress, things I learn, and maybe even some fun experiments along the way.&lt;/p&gt;
+&lt;p&gt;I’m going to challenge myself to write often, so I hope you’ll see new posts popping up here regularly. I may not have everything figured out, but I’m committed to growing in this space. So, stick with me as I improve not only my writing but my web development skills too. 🚀&lt;/p&gt;
+&lt;h3 id=&quot;what-to-expect&quot; tabindex=&quot;-1&quot;&gt;What to Expect&lt;/h3&gt;
+&lt;p&gt;Along with my posts about programming, web development, and language learning, I’m hoping to sprinkle in some personal insights and reflections. I believe a blog should feel a bit like a personal corner of the web where thoughts can evolve over time, and that’s exactly what I’m aiming to create here.&lt;/p&gt;
+&lt;p&gt;This is just the beginning, but I’m truly excited to see where it goes. Thanks for reading, and I hope you find something here that sparks your interest!&lt;/p&gt;
+&lt;p&gt;Feel free to leave comments and share your thoughts. Let’s start this journey together!&lt;/p&gt;
+</content>
+  </entry>
+</feed>

@@ -1,16 +1,5 @@
-# Ignore build outputs
-public/
-
 # Ignore Node.js dependencies
 node_modules/
-
-# Ignore your .well-known folder
-/src/static/.well-known/
-
-# Ignore personal files
-/src/static/profile.jpg
-/src/static/eventsEmailLogo.jpg
-/src/static/public.asc
 
 # Ignore pnpm-related files
 pnpm-lock.yaml
