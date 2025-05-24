@@ -1,8 +1,8 @@
+# Ignore built files
+public/
+
 # Ignore Node.js dependencies
 node_modules/
-
-# Ignore pnpm-related files
-pnpm-lock.yaml
 
 # Ignore logs, env files and temporary files
 *.log
