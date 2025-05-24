@@ -18,7 +18,8 @@ pagination:
   <article>
     <h4>{{ post.data.title }}</h4>
 
-    <p>{% icon "calendar-week", class="text-icon" %}{{ post.data.date | readableDate }}{% icon "user", class="text-icon" %}<a href="{{ post.data.author.href }}">{{ post.data.author.name }}</a></p>
+    <p>{% icon "calendar-week", class="text-icon" %}{{ post.data.date | readableDate }}{% icon "user", class="text-icon" %}<a href="{{ post.data.author.href }}">{{ post.data.author.name.split(' ')[0] }}</a>
+</p>
 
     <p>{{ post.data.description }}</p>
 
