@@ -44,7 +44,7 @@ To run the project locally:
 
 ## Deployment
 
-The site is deployed to my VPS using a custom Bash script. The public folder is served by Apache.
+The site is deployed to my VPS using a Github Actions Workflow. The public folder is served by Apache.
 
 ## Contributing
 
