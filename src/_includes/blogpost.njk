@@ -116,3 +116,10 @@ layout: base.njk
     {% endif %}
   </section>
 
+{% if tags %}
+  <p class="post-tags">
+    {% for tag in tags %}
+      <a href="/posts/tags/{{ tag }}/" class="tag">{{ tag }}</a>
+    {% endfor %}
+  </p>
+{% endif %}

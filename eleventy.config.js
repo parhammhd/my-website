@@ -41,6 +41,44 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addCollection('posts', (collection) => collection.getFilteredByGlob('./src/posts/*.md'));
 
+  // Collection for all unique tags
+  eleventyConfig.addCollection("tagList", function(collectionApi) {
+    const tagSet = new Set();
+    collectionApi.getFilteredByGlob("./posts/*.md").forEach(item => {
+      (item.data.tags || []).forEach(tag => tagSet.add(tag));
+    });
+    return [...tagSet].sort();
+  });
+
+  // Collection per tag
+  eleventyConfig.addCollection("postsByTag", function(collectionApi) {
+    const tagMap = new Map();
+    collectionApi.getFilteredByGlob("./posts/*.md").forEach(item => {
+      (item.data.tags || []).forEach(tag => {
+        if (!tagMap.has(tag)) tagMap.set(tag, []);
+        tagMap.get(tag).push(item);
+      });
+    });
+    return tagMap;
+  });
+
+  eleventyConfig.addFilter("getAllTags", function (collections) {
+    const tags = new Set();
+    for (const name in collections) {
+      collections[name].forEach(item => {
+        if ("tags" in item.data) {
+          let itemTags = item.data.tags;
+          if (typeof itemTags === "string") itemTags = [itemTags];
+          itemTags.forEach(tag => tags.add(tag));
+        }
+      });
+    }
+    return [...tags];
+  });
+
+  eleventyConfig.addFilter("filterByTag", function (collection, tag) {
+    return collection.filter(item => item.data.tags && item.data.tags.includes(tag));
+  });
 
   eleventyConfig.addPlugin(eleventyPluginIcons, {
     mode: 'inline',

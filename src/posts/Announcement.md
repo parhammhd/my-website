@@ -2,6 +2,7 @@
 title: "Blog Announcement!"
 description: "So begins my blogging journey – excited to write, learn, and share!"
 date: 2024-12-29
+tags: [blog, announcement]
 ---
 
 ## Welcome to "The Sweet Blog" — My New Blogging Journey\!
