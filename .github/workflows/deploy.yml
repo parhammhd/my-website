@@ -44,6 +44,6 @@ jobs:
       run: |
         rsync -rtvzP ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/parham.dev
 
-    - name: Restart Apache
+    - name: Restart Caddy
       run: |
-        ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "systemctl restart apache2"
+        ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "systemctl restart caddy"
