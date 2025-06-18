@@ -15,7 +15,7 @@ Welcome to the repository for my personal website! This site is a showcase of my
 - **Static Site Generator:** [Eleventy (11ty)](https://www.11ty.dev/)
 - **CSS Framework:** [simple.css](https://simplecss.org/) with customizations
 - **Fonts:** Self-hosted open-source fonts
-- **Hosting:** Self-hosted on a Debian 12 VPS with Apache
+- **Hosting:** Self-hosted on a Debian 12 VPS with Caddy
 
 ## Development
 
@@ -44,7 +44,7 @@ To run the project locally:
 
 ## Deployment
 
-The site is deployed to my VPS using a Github Actions Workflow. The public folder is served by Apache.
+The site is deployed to my VPS using a Github Actions Workflow. The public folder is served by Caddy.
 
 ## Contributing
 
