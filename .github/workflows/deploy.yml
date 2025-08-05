@@ -46,4 +46,4 @@ jobs:
 
     - name: Restart Caddy
       run: |
-        ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "systemctl restart caddy"
+        ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "rc-service caddy restart"

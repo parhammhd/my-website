@@ -21,8 +21,8 @@ importers:
         specifier: ^2.0.4
         version: 2.0.4
       '@11ty/eleventy-plugin-syntaxhighlight':
-        specifier: ^5.0.1
-        version: 5.0.1
+        specifier: ^5.0.2
+        version: 5.0.2
       '@tabler/icons':
         specifier: ^3.34.1
         version: 3.34.1
@@ -33,8 +33,8 @@ importers:
         specifier: ^4.5.3
         version: 4.5.3
       lucide-static:
-        specifier: ^0.533.0
-        version: 0.533.0
+        specifier: ^0.536.0
+        version: 0.536.0
       markdown-it:
         specifier: ^14.1.0
         version: 14.1.0
@@ -57,8 +57,8 @@ importers:
         specifier: ^0.3.2
         version: 0.3.2(markdown-it@14.1.0)
       simple-icons:
-        specifier: ^15.8.0
-        version: 15.8.0
+        specifier: ^15.9.0
+        version: 15.9.0
     devDependencies:
       eleventy-plugin-webmentions:
         specifier: ^2.1.0
@@ -95,8 +95,8 @@ packages:
   '@11ty/eleventy-plugin-rss@2.0.4':
     resolution: {integrity: sha512-LF60sGVlxGTryQe3hTifuzrwF8R7XbrNsM2xfcDcNMSliLN4kmB+7zvoLRySRx0AQDjqhPTAeeeT0ra6/9zHUQ==}
 
-  '@11ty/eleventy-plugin-syntaxhighlight@5.0.1':
-    resolution: {integrity: sha512-xDPF3Ay38XlmWZe9ER0SLtMmNah7olUBlGORhUiCUkPh3jYGVCDTDayi4tbFI9Dxha8NwKlfBZ2FXM/s3aZzAg==}
+  '@11ty/eleventy-plugin-syntaxhighlight@5.0.2':
+    resolution: {integrity: sha512-T6xVVRDJuHlrFMHbUiZkHjj5o1IlLzZW+1IL9eUsyXFU7rY2ztcYhZew/64vmceFFpQwzuSfxQOXxTJYmKkQ+A==}
 
   '@11ty/eleventy-utils@2.0.7':
     resolution: {integrity: sha512-6QE+duqSQ0GY9rENXYb4iPR4AYGdrFpqnmi59tFp9VrleOl0QSh8VlBr2yd6dlhkdtj7904poZW5PvGr9cMiJQ==}
@@ -650,8 +650,8 @@ packages:
   list-to-array@1.1.0:
     resolution: {integrity: sha512-+dAZZ2mM+/m+vY9ezfoueVvrgnHIGi5FvgSymbIgJOFwiznWyA59mav95L+Mc6xPtL3s9gm5eNTlNtxJLbNM1g==}
 
-  lucide-static@0.533.0:
-    resolution: {integrity: sha512-k3UlBd6LDsmOPd4X3G4+xbVwRIfBwzSJPkeO/bL5kLvEj2WJ0REDibUJPXB4PjWwYJ6N4/FfAHk7xhT/UUgPOA==}
+  lucide-static@0.536.0:
+    resolution: {integrity: sha512-sP/CE7WIORRnPcutL0tSm1SiLEQ2g8FYbUUkYNNscCGSmUA3LDHfOXdghEFSzFQuo+6yxaTJ+/xNDUGHKPPD5g==}
 
   luxon@3.7.1:
     resolution: {integrity: sha512-RkRWjA926cTvz5rAb1BqyWkKbbjzCGchDUIKMCUvNi17j6f6j8uHGDV82Aqcqtzd+icoYpELmG3ksgGiFNNcNg==}
@@ -722,8 +722,8 @@ packages:
   moo@0.5.2:
     resolution: {integrity: sha512-iSAJLHYKnX41mKcJKjqvnAN9sf0LMDTXDEvFv+ffuRR9a1MIuXLjMNL6EsnDHSkKLTWNqQQ5uo61P4EbU4NU+Q==}
 
-  morphdom@2.7.5:
-    resolution: {integrity: sha512-z6bfWFMra7kBqDjQGHud1LSXtq5JJC060viEkQFMBX6baIecpkNr2Ywrn2OQfWP3rXiNFQRPoFjD8/TvJcWcDg==}
+  morphdom@2.7.7:
+    resolution: {integrity: sha512-04GmsiBcalrSCNmzfo+UjU8tt3PhZJKzcOy+r1FlGA7/zri8wre3I1WkYN9PT3sIeIKfW9bpyElA+VzOg2E24g==}
 
   ms@2.0.0:
     resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
@@ -878,8 +878,8 @@ packages:
     resolution: {integrity: sha512-haPVm1EkS9pgvHrQ/F3Xy+hgcuMV0Wm9vfIBSiwZ05k+xgb0PkBQpGsAA/oWdDobNaZTH5ppvHtzCFbnSEwHVw==}
     engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
 
-  simple-icons@15.8.0:
-    resolution: {integrity: sha512-wErxeGj9E8bcS3sP/G1iqCcKAFW6s5rMIHT2ZeNrqAhF3p0zCkbP+LRJNPFnczGpKdTfS4fPQHCvag1QwsAQvg==}
+  simple-icons@15.9.0:
+    resolution: {integrity: sha512-s08J3HKzXBFntasxytDpuuw3REpezyOdCJ5pguel5aPAwBR4Dubbrp8N6KD37kVqkoBLv5IE3tbQoBpQII0Vxg==}
     engines: {node: '>=0.12.18'}
 
   simple-swizzle@0.2.2:
@@ -989,7 +989,7 @@ snapshots:
       finalhandler: 1.3.1
       mime: 3.0.0
       minimist: 1.2.8
-      morphdom: 2.7.5
+      morphdom: 2.7.7
       please-upgrade-node: 3.2.0
       send: 1.2.0
       ssri: 11.0.0
@@ -1045,7 +1045,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@11ty/eleventy-plugin-syntaxhighlight@5.0.1':
+  '@11ty/eleventy-plugin-syntaxhighlight@5.0.2':
     dependencies:
       prismjs: 1.30.0
 
@@ -1585,7 +1585,7 @@ snapshots:
 
   list-to-array@1.1.0: {}
 
-  lucide-static@0.533.0: {}
+  lucide-static@0.536.0: {}
 
   luxon@3.7.1: {}
 
@@ -1646,7 +1646,7 @@ snapshots:
 
   moo@0.5.2: {}
 
-  morphdom@2.7.5: {}
+  morphdom@2.7.7: {}
 
   ms@2.0.0: {}
 
@@ -1817,7 +1817,7 @@ snapshots:
       '@img/sharp-win32-ia32': 0.33.5
       '@img/sharp-win32-x64': 0.33.5
 
-  simple-icons@15.8.0: {}
+  simple-icons@15.9.0: {}
 
   simple-swizzle@0.2.2:
     dependencies:
