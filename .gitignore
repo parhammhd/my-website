@@ -8,3 +8,6 @@ node_modules/
 *.log
 *.tmp
 *.env
+
+# Ignore vscode mcp files
+.vscode/
