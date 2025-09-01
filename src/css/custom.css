@@ -58,6 +58,11 @@
   margin-left: 1em;
 }
 
+.tag-icon {
+  vertical-align: -0.4em; /* Adjust to lift the icon slightly */
+  margin-right: 0.1em; /* Spacing between the icon and the text */
+}
+
 h1,
 h2,
 h3,
@@ -277,4 +282,26 @@ input[type="button"] {
   gap: 0.75rem;
   align-items: flex-start;
   margin-bottom: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  background: var(--accent-bg);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 0.4em 1em;
+  font-size: 0.95em;
+  margin: 0 0.2em 0.2em 0;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.tag:hover,
+.tag:focus {
+  background: var(--accent);
+  color: var(--accent-text);
+  border-color: var(--accent-hover);
+  text-decoration: none;
+  outline: none;
 }

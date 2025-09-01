@@ -3,11 +3,11 @@ layout: base.njk
 title: All Tags
 ---
 
-<h2>All Tags</h2>
+<h2>Tags:</h2>
 <ul>
   {% for tag in collections | getAllTags %}
     {% if tag != "posts" %}
-      <li><a href="/posts/tags/{{ tag }}/">{{ tag }}</a></li>
+      <a href="/posts/tags/{{ tag }}/" class="tag">{% icon "tag", class="tag-icon" %} {{ tag }}</a>
     {% endif %}
   {% endfor %}
 </ul>

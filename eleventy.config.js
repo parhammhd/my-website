@@ -44,7 +44,7 @@ export default async function(eleventyConfig) {
   // Collection for all unique tags
   eleventyConfig.addCollection("tagList", function(collectionApi) {
     const tagSet = new Set();
-    collectionApi.getFilteredByGlob("./posts/*.md").forEach(item => {
+    collectionApi.getFilteredByGlob("./src/posts/*.md").forEach(item => {
       (item.data.tags || []).forEach(tag => tagSet.add(tag));
     });
     return [...tagSet].sort();
@@ -53,7 +53,7 @@ export default async function(eleventyConfig) {
   // Collection per tag
   eleventyConfig.addCollection("postsByTag", function(collectionApi) {
     const tagMap = new Map();
-    collectionApi.getFilteredByGlob("./posts/*.md").forEach(item => {
+    collectionApi.getFilteredByGlob("./src/posts/*.md").forEach(item => {
       (item.data.tags || []).forEach(tag => {
         if (!tagMap.has(tag)) tagMap.set(tag, []);
         tagMap.get(tag).push(item);
@@ -66,7 +66,7 @@ export default async function(eleventyConfig) {
     const tags = new Set();
     for (const name in collections) {
       collections[name].forEach(item => {
-        if ("tags" in item.data) {
+        if (item && item.data && "tags" in item.data) {
           let itemTags = item.data.tags;
           if (typeof itemTags === "string") itemTags = [itemTags];
           itemTags.forEach(tag => tags.add(tag));
