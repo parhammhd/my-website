@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /.well-known/
+Sitemap: https://parham.dev/sitemap.xml
