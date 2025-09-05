@@ -20,7 +20,7 @@
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
     "@tabler/icons": "^3.34.1",
-    "dotenv": "^17.2.1",
+    "dotenv": "^17.2.2",
     "eleventy-plugin-icons": "^4.5.4",
     "lucide-static": "^0.542.0",
     "markdown-it": "^14.1.0",

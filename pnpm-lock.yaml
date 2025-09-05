@@ -27,8 +27,8 @@ importers:
         specifier: ^3.34.1
         version: 3.34.1
       dotenv:
-        specifier: ^17.2.1
-        version: 17.2.1
+        specifier: ^17.2.2
+        version: 17.2.2
       eleventy-plugin-icons:
         specifier: ^4.5.4
         version: 4.5.4
@@ -424,8 +424,8 @@ packages:
   domutils@3.2.2:
     resolution: {integrity: sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==}
 
-  dotenv@17.2.1:
-    resolution: {integrity: sha512-kQhDYKZecqnM0fCnzI5eIv5L4cAe/iRI+HqMbO/hbRdTAeXDG+M9FjipUxNfbARuEg4iHIbhnhs78BCHNbSxEQ==}
+  dotenv@17.2.2:
+    resolution: {integrity: sha512-Sf2LSQP+bOlhKWWyhFsn0UsfdK/kCWRv1iuA2gXAwt3dyNabr6QSj00I2V10pidqz69soatm9ZwZvpQMTIOd5Q==}
     engines: {node: '>=12'}
 
   duplexer@0.1.1:
@@ -654,8 +654,8 @@ packages:
   lucide-static@0.542.0:
     resolution: {integrity: sha512-jnXxFQYH0F24Nj5Zjje5jmMbGjClohnuSEYwTjAGuAa7UYDQiUjl0H7t4Ha19lkKryhCQA3VfeAJMjarrhzNZQ==}
 
-  luxon@3.7.1:
-    resolution: {integrity: sha512-RkRWjA926cTvz5rAb1BqyWkKbbjzCGchDUIKMCUvNi17j6f6j8uHGDV82Aqcqtzd+icoYpELmG3ksgGiFNNcNg==}
+  luxon@3.7.2:
+    resolution: {integrity: sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew==}
     engines: {node: '>=12'}
 
   markdown-it-abbr@2.0.0:
@@ -1074,7 +1074,7 @@ snapshots:
       js-yaml: 4.1.0
       kleur: 4.1.5
       liquidjs: 10.21.1
-      luxon: 3.7.1
+      luxon: 3.7.2
       markdown-it: 14.1.0
       minimist: 1.2.8
       moo: 0.5.2
@@ -1388,7 +1388,7 @@ snapshots:
       domelementtype: 2.3.0
       domhandler: 5.0.3
 
-  dotenv@17.2.1: {}
+  dotenv@17.2.2: {}
 
   duplexer@0.1.1: {}
 
@@ -1588,7 +1588,7 @@ snapshots:
 
   lucide-static@0.542.0: {}
 
-  luxon@3.7.1: {}
+  luxon@3.7.2: {}
 
   markdown-it-abbr@2.0.0: {}
 
