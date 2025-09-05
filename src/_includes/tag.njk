@@ -1,12 +1,13 @@
 ---
 layout: base.njk
-site_name: {{ The Sweet Blog }}
 pagination:
   data: collections.tagList
   size: 1
   alias: tag
 permalink: "/posts/tags/{{ tag }}/"
-title: "Posts tagged {{ tag }}"
+eleventyComputed:
+  title: "Posts tagged {{ tag }}"
+siteName: "The Sweet Blog"
 ---
 
 <h3>Tagged:</h3><tag class="tag">{% icon "tag", class="tag-icon" %} {{ tag }}</tag>

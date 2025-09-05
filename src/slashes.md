@@ -1,7 +1,8 @@
 ---
 layout: base.njk
 title: "Parham's Slashes Page"
-description: "All slash pages of Parham"
+siteName: "Parham's Slashes Page"
+description: "My slashes page!"
 eleventyNavigation:
   key: Slashes
   order: 7

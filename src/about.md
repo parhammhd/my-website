@@ -1,7 +1,8 @@
 ---
 layout: base.njk
-title: "About Me"
-description: "Learn more about the writer of The Sweet Blog!"
+title: "About Parham"
+siteName: "About Parham"
+description: "Learn more about me!"
 eleventyNavigation:
   key: About
   order: 6

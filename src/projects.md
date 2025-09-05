@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: "Parham's Projects"
+siteName: "Parham's Projects"
 description: "My Projects"
 eleventyNavigation:
   key: Projects
