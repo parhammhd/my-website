@@ -30,7 +30,7 @@
     "markdown-it-collapsible": "^2.0.2",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-obsidian-callouts": "^0.3.2",
-    "simple-icons": "^15.13.0"
+    "simple-icons": "^15.14.0"
   },
   "devDependencies": {
     "eleventy-plugin-webmentions": "^2.1.0"
