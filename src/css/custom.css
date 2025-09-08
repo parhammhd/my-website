@@ -305,3 +305,7 @@ input[type="button"] {
   text-decoration: none;
   outline: none;
 }
+
+hr.footnotes-sep {
+  display: none;
+}
