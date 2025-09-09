@@ -1,6 +1,6 @@
 {
   "name": "11tySite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A personal website built with Eleventy",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "@tabler/icons": "^3.34.1",
     "dotenv": "^17.2.2",
     "eleventy-plugin-icons": "^4.5.4",
-    "lucide-static": "^0.542.0",
+    "lucide-static": "^0.543.0",
     "markdown-it": "^14.1.0",
     "markdown-it-abbr": "^2.0.0",
     "markdown-it-anchor": "^9.2.0",

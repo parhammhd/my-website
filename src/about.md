@@ -10,7 +10,7 @@ eleventyNavigation:
 
 ## About Me
 
-Hello there! I'm **Parham**, a software engineer born in **1994**. I’m passionate about building things on the web and always exploring new technologies to make the digital world a better place.
+Hello there! I'm **Parham**, a software engineer. I’m passionate about building things on the web and always exploring new technologies to make the digital world a better place.
 
 ### 🚀 **My Journey**
 
