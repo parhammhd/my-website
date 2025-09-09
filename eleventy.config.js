@@ -101,6 +101,10 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyPluginSyntaxHighlight);
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    transformImgAttributes: (attributes) => {
+      attributes.loading = "lazy";
+      return attributes;
+    }
     // Plugin options go here
   });
 
