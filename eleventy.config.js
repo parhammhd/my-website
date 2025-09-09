@@ -168,5 +168,7 @@ export const config = {
     input: 'src',
     output: 'public',
     includes: '_includes'
-  }
+  },
+  markdownTemplateEngine: 'njk',
+  htmlTemplateEngine: 'njk'
 };

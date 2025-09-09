@@ -49,9 +49,8 @@ siteName: "The Sweet Blog"
 </section>
 
 
-{% set mentions = webmentions[page.url] %}
+{%- set mentions = webmentionsForPage -%}
   <section class="webmentions">
-    
     {% if mentions.likes.length %}
       <h3>Likes</h3>
       <div class="facepile">
