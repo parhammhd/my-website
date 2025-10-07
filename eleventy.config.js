@@ -128,8 +128,8 @@ export default async function(eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(feedPlugin, {
-    type: "atom", // or "rss", "json"
-		outputPath: "/posts/feed.xml",
+    type: "atom",
+		outputPath: "/feed.xml",
 		collection: {
 			name: "posts", // iterate over `collections.posts`
 			limit: 10,     // 0 means no limit
@@ -138,7 +138,45 @@ export default async function(eleventyConfig) {
 			language: "en",
 			title: "The Sweet Blog",
 			subtitle: "Dive into the latest posts on The Sweet Blog. Explore insightful stories and ideas.",
-			base: "https://parham.dev/posts/",
+			base: "https://parham.dev/",
+			author: {
+				name: "Parham",
+				email: "me@parham.dev", // Optional
+			}
+		}
+  });
+
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+		outputPath: "/rss.xml",
+		collection: {
+			name: "posts", // iterate over `collections.posts`
+			limit: 10,     // 0 means no limit
+		},
+		metadata: {
+			language: "en",
+			title: "The Sweet Blog",
+			subtitle: "Dive into the latest posts on The Sweet Blog. Explore insightful stories and ideas.",
+			base: "https://parham.dev/",
+			author: {
+				name: "Parham",
+				email: "me@parham.dev", // Optional
+			}
+		}
+  });
+
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "json",
+		outputPath: "/feed.json",
+		collection: {
+			name: "posts", // iterate over `collections.posts`
+			limit: 10,     // 0 means no limit
+		},
+		metadata: {
+			language: "en",
+			title: "The Sweet Blog",
+			subtitle: "Dive into the latest posts on The Sweet Blog. Explore insightful stories and ideas.",
+			base: "https://parham.dev/",
 			author: {
 				name: "Parham",
 				email: "me@parham.dev", // Optional
