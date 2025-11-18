@@ -4,7 +4,7 @@ title: "Parham's Slashes Page"
 siteName: "Parham's Slashes Page"
 description: "My slashes page!"
 eleventyNavigation:
-  key: Slashes
+  key: /
   order: 7
 ---
 
