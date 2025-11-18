@@ -6,22 +6,22 @@
   --standard-border-radius: 5px;
 
   /* Default (light) theme */
-  --bg: #f9f5e3;
-  --accent-bg: #e8e3d1;
-  --text: #1a1a1a;
-  --text-light: #4f4f4f;
-  --border: #c6c2b7;
-  --accent: #003366;
-  --accent-hover: #004080;
-  --accent-text: var(--bg);
-  --code: #cc3300;
-  --preformatted: #444444;
-  --marked: #ffd966;
-  --disabled: #e3e1db;
+  --bg: #fbfcfe; /* very pale blue/white */
+  --accent-bg: #eef6ff; /* pale blue panels */
+  --text: #072033; /* deep navy text */
+  --text-light: #596877; /* muted slate */
+  --border: #c9d7e9; /* soft blue-gray */
+  --accent: #0b4f88; /* deep blue accent */
+  --accent-hover: #063a66; /* darker on hover */
+  --accent-text: #ffffff; /* white text on accent */
+  --code: #b3592b; /* warm accent for inline code */
+  --preformatted: #333333;
+  --marked: #ffd966; /* warm yellow highlight */
+  --disabled: #f0edf0;
   --nav-active-bg: var(--bg);
   --nav-acive-text: var(--text);
   --button-bg: var(--accent);
-  --button-text: var(--bg);
+  --button-text: var(--accent-text);
 }
 
 /* Dark theme */
@@ -29,21 +29,22 @@
   :root,
   ::backdrop {
     color-scheme: dark;
-    --bg: #2b303b;
-    --accent-bg: #1c1e26;
-    --text: #f0ece2;
-    --text-light: #d4d2cc;
-    --border: #646a73;
-    --accent: #0e4c92;
-    --accent-hover: #1473d1;
-    --accent-text: var(--bg);
-    --code: #d3754a;
-    --preformatted: #e0e0e0;
-    --disabled: #2b303b;
+    --bg: #071428; /* deep navy background */
+    --accent-bg: #0b2f4a; /* panels: darker navy */
+    --text: #f5ecd8; /* warm off-white text */
+    --text-light: #d6cfae; /* soft yellowish text */
+    --border: #164459; /* subtle blue border */
+    --accent: #0e5ec2; /* vivid blue accent */
+    --accent-hover: #0b4fb0; /* hover accent */
+    --accent-text: #ffffff; /* white on accent */
+    --code: #ffd28a; /* warm code highlight */
+    --preformatted: #e6e6e6;
+    --marked: #ffd966; /* consistent yellow highlight */
+    --disabled: #0b1220;
     --nav-active-bg: var(--accent);
-  --nav-acive-text: var(--text);
-  --button-bg: var(--accent);
-  --button-text: var(--text);
+    --nav-acive-text: var(--text);
+    --button-bg: var(--accent);
+    --button-text: var(--accent-text);
   }
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
   img,
