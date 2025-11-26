@@ -21,6 +21,7 @@ Welcome to my [/slashes](https://flamedfury.com/slashes){target="_blank" rel="no
 - [Contact](/contact)
 - Death
 - Defaults
+- [Feeds](/feeds)
 - Ideas
 - Interests
 - Links
