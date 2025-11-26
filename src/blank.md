@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: ""
-siteName: ""
-description: ""
+title: "Blank Page"
+siteName: "Blank Page"
+description: "This is a blank page!"
 ---
 
