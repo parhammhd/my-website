@@ -33,8 +33,8 @@ importers:
         specifier: ^4.5.4
         version: 4.5.4
       lucide-static:
-        specifier: ^0.554.0
-        version: 0.554.0
+        specifier: ^0.555.0
+        version: 0.555.0
       markdown-it:
         specifier: ^14.1.0
         version: 14.1.0
@@ -54,11 +54,11 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       markdown-it-obsidian-callouts:
-        specifier: ^0.3.2
-        version: 0.3.2(markdown-it@14.1.0)
+        specifier: ^0.3.3
+        version: 0.3.3(markdown-it@14.1.0)
       simple-icons:
-        specifier: ^15.21.0
-        version: 15.21.0
+        specifier: ^15.22.0
+        version: 15.22.0
     devDependencies:
       eleventy-plugin-webmentions:
         specifier: ^2.1.0
@@ -556,8 +556,8 @@ packages:
     resolution: {integrity: sha512-XJpDL/MLkV3dKwLzHwr2dY05dYNfBNlyPu4STQ8WvKCFdc6vC5tPXuq28of663+gHVg03C+16pHHs/+FmmDjcw==}
     engines: {node: '>= 6'}
 
-  http-errors@2.0.0:
-    resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
+  http-errors@2.0.1:
+    resolution: {integrity: sha512-4FbRdAX+bSdmo4AUFuS0WNiPz8NgFt+r8ThgNWmlrjQjt1Q7ZR9+zTlce2859x4KSXrwIsaeTqDoKQmtP8pLmQ==}
     engines: {node: '>= 0.8'}
 
   image-size@1.2.1:
@@ -651,8 +651,8 @@ packages:
   list-to-array@1.1.0:
     resolution: {integrity: sha512-+dAZZ2mM+/m+vY9ezfoueVvrgnHIGi5FvgSymbIgJOFwiznWyA59mav95L+Mc6xPtL3s9gm5eNTlNtxJLbNM1g==}
 
-  lucide-static@0.554.0:
-    resolution: {integrity: sha512-BYYjEYeK9zuG80ttRn0ud1eXS72KlGNr0p3v5kSWRDVUZqoKF9JJAxeAvdNrFIRv4OIv7h2sKSvfz0xXhP3l/w==}
+  lucide-static@0.555.0:
+    resolution: {integrity: sha512-FMMaYYsEYsUA6xlEzIMoKEV3oGnxIIvAN+AtLmYXvlTJptJTveJjVBQwvtA/zZLrD6KLEu89G95dQYlhivw5jQ==}
 
   luxon@3.7.2:
     resolution: {integrity: sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew==}
@@ -681,8 +681,8 @@ packages:
   markdown-it-footnote@4.0.0:
     resolution: {integrity: sha512-WYJ7urf+khJYl3DqofQpYfEYkZKbmXmwxQV8c8mO/hGIhgZ1wOe7R4HLFNwqx7TjILbnC98fuyeSsin19JdFcQ==}
 
-  markdown-it-obsidian-callouts@0.3.2:
-    resolution: {integrity: sha512-YfvKgXJvqfXYqHIkQhQsDe/QzOdndhCkttqokPoZUEqUrzmumbUsUAUmyheV/igJFGwwsnE7h2UMIAKcdrLbrg==}
+  markdown-it-obsidian-callouts@0.3.3:
+    resolution: {integrity: sha512-XviZR/5aFmcGVvjUv2I0TidPIkc4RzAJg3cd5N1zJe/3eh2FLLiqt0ugyBlkOyKc2ydcp/q2iUGAZomxn7al+g==}
     peerDependencies:
       markdown-it: ^14.0.0
 
@@ -701,9 +701,9 @@ packages:
     resolution: {integrity: sha512-aU5EJuIN2WDemCcAp2vFBfp/m4EAhWJnUNSSw0ixs7/kXbd6Pg64EmwJkNdFhB8aWt1sH2CTXrLxo/iAGV3oPQ==}
     engines: {node: '>= 0.6'}
 
-  mime-types@3.0.1:
-    resolution: {integrity: sha512-xRc4oEhT6eaBpU1XF7AjpOFD+xQmXNB5OVKwp4tqCuBpHLS/ZbBDrc07mYTDqVMg6PfxUjjNp85O6Cd2Z/5HWA==}
-    engines: {node: '>= 0.6'}
+  mime-types@3.0.2:
+    resolution: {integrity: sha512-Lbgzdk0h4juoQ9fCKXW4by0UJqj+nOOrI9MJ1sSj4nI8aI2eo1qmvQEie4VD1glsS250n15LsWsYtCugiStS5A==}
+    engines: {node: '>=18'}
 
   mime@3.0.0:
     resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==}
@@ -879,8 +879,8 @@ packages:
     resolution: {integrity: sha512-haPVm1EkS9pgvHrQ/F3Xy+hgcuMV0Wm9vfIBSiwZ05k+xgb0PkBQpGsAA/oWdDobNaZTH5ppvHtzCFbnSEwHVw==}
     engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
 
-  simple-icons@15.21.0:
-    resolution: {integrity: sha512-xEKtyjl3bmmnyxZIsxNlN4RnN/BaP2tecQCSxOj1C6llJKt0TG4u+ZNJKSA82yBGrkO0CWW10UBTFMkH6tVKzQ==}
+  simple-icons@15.22.0:
+    resolution: {integrity: sha512-i/w5Ie4tENfGYbdCo2iJ+oies0vOFd8QXWHopKOUzudfLCvnmeheF2PpHp89Z2azpc+c2su3lMiWO/SpP+429A==}
     engines: {node: '>=0.12.18'}
 
   simple-swizzle@0.2.4:
@@ -1510,12 +1510,12 @@ snapshots:
 
   http-equiv-refresh@2.0.1: {}
 
-  http-errors@2.0.0:
+  http-errors@2.0.1:
     dependencies:
       depd: 2.0.0
       inherits: 2.0.4
       setprototypeof: 1.2.0
-      statuses: 2.0.1
+      statuses: 2.0.2
       toidentifier: 1.0.1
 
   image-size@1.2.1:
@@ -1586,7 +1586,7 @@ snapshots:
 
   list-to-array@1.1.0: {}
 
-  lucide-static@0.554.0: {}
+  lucide-static@0.555.0: {}
 
   luxon@3.7.2: {}
 
@@ -1607,7 +1607,7 @@ snapshots:
 
   markdown-it-footnote@4.0.0: {}
 
-  markdown-it-obsidian-callouts@0.3.2(markdown-it@14.1.0):
+  markdown-it-obsidian-callouts@0.3.3(markdown-it@14.1.0):
     dependencies:
       markdown-it: 14.1.0
 
@@ -1631,7 +1631,7 @@ snapshots:
 
   mime-db@1.54.0: {}
 
-  mime-types@3.0.1:
+  mime-types@3.0.2:
     dependencies:
       mime-db: 1.54.0
 
@@ -1781,8 +1781,8 @@ snapshots:
       escape-html: 1.0.3
       etag: 1.8.1
       fresh: 2.0.0
-      http-errors: 2.0.0
-      mime-types: 3.0.1
+      http-errors: 2.0.1
+      mime-types: 3.0.2
       ms: 2.1.3
       on-finished: 2.4.1
       range-parser: 1.2.1
@@ -1818,7 +1818,7 @@ snapshots:
       '@img/sharp-win32-ia32': 0.33.5
       '@img/sharp-win32-x64': 0.33.5
 
-  simple-icons@15.21.0: {}
+  simple-icons@15.22.0: {}
 
   simple-swizzle@0.2.4:
     dependencies:
