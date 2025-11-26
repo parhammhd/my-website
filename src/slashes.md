@@ -14,6 +14,7 @@ Welcome to my [/slashes](https://flamedfury.com/slashes){target="_blank" rel="no
 
 - [About](/about)
 - AI
+- [Blank](/blank)
 - Blogroll
 - Changelog
 - Colophon
