@@ -15,8 +15,8 @@ importers:
         specifier: ^6.0.4
         version: 6.0.4
       '@11ty/eleventy-navigation':
-        specifier: ^1.0.4
-        version: 1.0.4
+        specifier: ^1.0.5
+        version: 1.0.5
       '@11ty/eleventy-plugin-rss':
         specifier: ^2.0.4
         version: 2.0.4
@@ -30,11 +30,11 @@ importers:
         specifier: ^17.2.3
         version: 17.2.3
       eleventy-plugin-icons:
-        specifier: ^4.5.4
-        version: 4.5.4
+        specifier: ^4.5.7
+        version: 4.5.7
       lucide-static:
-        specifier: ^0.555.0
-        version: 0.555.0
+        specifier: ^0.556.0
+        version: 0.556.0
       markdown-it:
         specifier: ^14.1.0
         version: 14.1.0
@@ -57,8 +57,8 @@ importers:
         specifier: ^0.3.3
         version: 0.3.3(markdown-it@14.1.0)
       simple-icons:
-        specifier: ^15.22.0
-        version: 15.22.0
+        specifier: ^16.1.0
+        version: 16.1.0
     devDependencies:
       eleventy-plugin-webmentions:
         specifier: ^2.1.0
@@ -66,27 +66,27 @@ importers:
 
 packages:
 
-  '@11ty/dependency-tree-esm@2.0.2':
-    resolution: {integrity: sha512-kSTmXneksQLBhwsfqjxiSi9ecRKENXmRtT5RG95rFoWSI8kkwLcGlYpoXsPkCD9uQwSU1rmDzXBDnqUJlWaIyw==}
+  '@11ty/dependency-tree-esm@2.0.3':
+    resolution: {integrity: sha512-zlcfZq5WC9ksnLeLBROshNeE9P1jvOAPvUY9787cND/7SKf+QM7RGjNyF5taoCQww12B6Dx0Y9cwXsNbRipzlA==}
 
-  '@11ty/dependency-tree@4.0.0':
-    resolution: {integrity: sha512-PTOnwM8Xt+GdJmwRKg4pZ8EKAgGoK7pedZBfNSOChXu8MYk2FdEsxdJYecX4t62owpGw3xK60q9TQv/5JI59jw==}
+  '@11ty/dependency-tree@4.0.1':
+    resolution: {integrity: sha512-6EPI9ZkGU4BX2KNZpWlf4WdV3vrmIWQpn//nAXicTzdPubI3jZlmFdqEv0Yj5M7oavRUGNzw9GbV9cBxhulZWw==}
 
   '@11ty/eleventy-dev-server@2.0.8':
     resolution: {integrity: sha512-15oC5M1DQlCaOMUq4limKRYmWiGecDaGwryr7fTE/oM9Ix8siqMvWi+I8VjsfrGr+iViDvWcH/TVI6D12d93mA==}
     engines: {node: '>=18'}
     hasBin: true
 
-  '@11ty/eleventy-fetch@5.1.0':
-    resolution: {integrity: sha512-gSmCA3olJxRwtTkXyS+KIanq1kEufCC+JsHyTa7ta5NqmeUQlWA8zEngtXrDl+ebrAvFz2bNaxLd+0ERpnnSPQ==}
+  '@11ty/eleventy-fetch@5.1.1':
+    resolution: {integrity: sha512-/xFJLCrqKlcnRKIfO9Qjd1QOs4IpvypljXET955+EgdRPFA+h8Or6bDnZBbcwr6KS7yeUuzp5k1DhXgbentSTA==}
     engines: {node: '>=18'}
 
   '@11ty/eleventy-img@6.0.4':
     resolution: {integrity: sha512-jSy9BmubVs0mN76dcXWfSYDgRU+1+/rq/SxUR3MgIvTUAJRDop5pFW+Z1f56CDcOlEHaiPqHgnfOlqRmJvXl7g==}
     engines: {node: '>=18'}
 
-  '@11ty/eleventy-navigation@1.0.4':
-    resolution: {integrity: sha512-FgIfKiFP1e3plQdIvSRph1tFV44bbCXcYs+AWcwnsfrn5I6Gf0t3hBq9IrR4JdnZ06hlEKq8qRbnbb0nfEZg3A==}
+  '@11ty/eleventy-navigation@1.0.5':
+    resolution: {integrity: sha512-zb6xe29cM9viSdYtZywKIkJw2HIROyBINdBcFWC9uD0c/jYOTAex5nwy3HNEuh5t6/Ld/S9V4gEizfmeYuYpCQ==}
 
   '@11ty/eleventy-plugin-bundle@3.0.7':
     resolution: {integrity: sha512-QK1tRFBhQdZASnYU8GMzpTdsMMFLVAkuU0gVVILqNyp09xJJZb81kAS3AFrNrwBCsgLxTdWHJ8N64+OTTsoKkA==}
@@ -111,12 +111,12 @@ packages:
     resolution: {integrity: sha512-Mqt6im1xpb1Ykn3nbcCovWXK3ggywRJa+IXIdoz4wIIK+cvozADH63lexcuPpGS/gJ6/m2JxyyXDyupkMr5DHw==}
     engines: {node: '>=14'}
 
-  '@11ty/posthtml-urls@1.0.1':
-    resolution: {integrity: sha512-6EFN/yYSxC/OzYXpq4gXDyDMlX/W+2MgCvvoxf11X1z76bqkqFJ8eep5RiBWfGT5j0323a1pwpelcJJdR46MCw==}
+  '@11ty/posthtml-urls@1.0.2':
+    resolution: {integrity: sha512-0vaV3Wt0surZ+oS1VdKKe0axeeupuM+l7W/Z866WFQwF+dGg2Tc/nmhk/5l74/Y55P8KyImnLN9CdygNw2huHg==}
     engines: {node: '>= 6'}
 
-  '@11ty/recursive-copy@4.0.2':
-    resolution: {integrity: sha512-174nFXxL/6KcYbLYpra+q3nDbfKxLxRTNVY1atq2M1pYYiPfHse++3IFNl8mjPFsd7y2qQjxLORzIjHMjL3NDQ==}
+  '@11ty/recursive-copy@4.0.3':
+    resolution: {integrity: sha512-SX48BTLEGX8T/OsKWORsHAAeiDsbFl79Oa/0Wg/mv/d27b7trCVZs7fMHvpSgDvZz/fZqx5rDk8+nx5oyT7xBw==}
     engines: {node: '>=18'}
 
   '@emnapi/runtime@1.7.1':
@@ -434,8 +434,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  eleventy-plugin-icons@4.5.4:
-    resolution: {integrity: sha512-UruvFB0Da5cqshhlwbN62XbPua48tE4BAHyh4yXyjktq/wIGWE7LPL60SL7LZT29UAc0OV3zqwgRP/kaVgMjcw==}
+  eleventy-plugin-icons@4.5.7:
+    resolution: {integrity: sha512-daunsT7kZlIxH3mBG/TJf3wULkv0wFrUI/wj5DW5IlccJ9cutWcGgZ7XbCFX6TLTwU6Bd1M0CXmOWz2i8KOFJA==}
     engines: {node: '>=16.20.2'}
 
   eleventy-plugin-webmentions@2.1.0:
@@ -519,8 +519,8 @@ packages:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
 
-  finalhandler@1.3.1:
-    resolution: {integrity: sha512-6BN9trH7bp3qvnrRyzsBz+g3lZxTNZTbVO2EV1CS0WIcDbawYVdYvGflME/9QP0h0pYlCDBCTjYa9nZzMDpyxQ==}
+  finalhandler@1.3.2:
+    resolution: {integrity: sha512-aA4RyPcd3badbdABGDuTXCMTtOneUCAYH/gxoYRTZlIJdF0YPWuGqiAsIrhNnnqdXGswYk6dGujem4w80UJFhg==}
     engines: {node: '>= 0.8'}
 
   flatted@3.3.3:
@@ -651,8 +651,8 @@ packages:
   list-to-array@1.1.0:
     resolution: {integrity: sha512-+dAZZ2mM+/m+vY9ezfoueVvrgnHIGi5FvgSymbIgJOFwiznWyA59mav95L+Mc6xPtL3s9gm5eNTlNtxJLbNM1g==}
 
-  lucide-static@0.555.0:
-    resolution: {integrity: sha512-FMMaYYsEYsUA6xlEzIMoKEV3oGnxIIvAN+AtLmYXvlTJptJTveJjVBQwvtA/zZLrD6KLEu89G95dQYlhivw5jQ==}
+  lucide-static@0.556.0:
+    resolution: {integrity: sha512-AD0WHIYZgRvbPrdfMdAaHYTDfSlEHYSry9sh4faS14malHdsPelnZQ9j/r5M5nCD4pyTsYyAk9DFt+/2FmLSNA==}
 
   luxon@3.7.2:
     resolution: {integrity: sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew==}
@@ -879,8 +879,8 @@ packages:
     resolution: {integrity: sha512-haPVm1EkS9pgvHrQ/F3Xy+hgcuMV0Wm9vfIBSiwZ05k+xgb0PkBQpGsAA/oWdDobNaZTH5ppvHtzCFbnSEwHVw==}
     engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
 
-  simple-icons@15.22.0:
-    resolution: {integrity: sha512-i/w5Ie4tENfGYbdCo2iJ+oies0vOFd8QXWHopKOUzudfLCvnmeheF2PpHp89Z2azpc+c2su3lMiWO/SpP+429A==}
+  simple-icons@16.1.0:
+    resolution: {integrity: sha512-fL95b22MWTn3y+zQ/QC9oKqJ6mXXNwm35oy5XMVPdvJZGfGNWDMMb33kfqm50OuRKNcdjbk7HQ73NdWcvaBXIQ==}
     engines: {node: '>=0.12.18'}
 
   simple-swizzle@0.2.4:
@@ -904,10 +904,6 @@ packages:
   ssri@11.0.0:
     resolution: {integrity: sha512-aZpUoMN/Jj2MqA4vMCeiKGnc/8SuSyHbGSBdgFbZxP8OJGF/lFkIuElzPxsN0q8TQQ+prw3P4EDfB3TBHHgfXw==}
     engines: {node: ^16.14.0 || >=18.0.0}
-
-  statuses@2.0.1:
-    resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
-    engines: {node: '>= 0.8'}
 
   statuses@2.0.2:
     resolution: {integrity: sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==}
@@ -971,14 +967,14 @@ packages:
 
 snapshots:
 
-  '@11ty/dependency-tree-esm@2.0.2':
+  '@11ty/dependency-tree-esm@2.0.3':
     dependencies:
       '@11ty/eleventy-utils': 2.0.7
       acorn: 8.15.0
       dependency-graph: 1.0.0
       normalize-path: 3.0.0
 
-  '@11ty/dependency-tree@4.0.0':
+  '@11ty/dependency-tree@4.0.1':
     dependencies:
       '@11ty/eleventy-utils': 2.0.7
 
@@ -987,7 +983,7 @@ snapshots:
       '@11ty/eleventy-utils': 2.0.7
       chokidar: 3.6.0
       debug: 4.4.3
-      finalhandler: 1.3.1
+      finalhandler: 1.3.2
       mime: 3.0.0
       minimist: 1.2.8
       morphdom: 2.7.7
@@ -1001,7 +997,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@11ty/eleventy-fetch@5.1.0':
+  '@11ty/eleventy-fetch@5.1.1':
     dependencies:
       '@11ty/eleventy-utils': 2.0.7
       '@rgrove/parse-xml': 4.2.0
@@ -1013,7 +1009,7 @@ snapshots:
 
   '@11ty/eleventy-img@6.0.4':
     dependencies:
-      '@11ty/eleventy-fetch': 5.1.0
+      '@11ty/eleventy-fetch': 5.1.1
       '@11ty/eleventy-utils': 2.0.7
       brotli-size: 4.0.0
       debug: 4.4.3
@@ -1024,7 +1020,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@11ty/eleventy-navigation@1.0.4':
+  '@11ty/eleventy-navigation@1.0.5':
     dependencies:
       dependency-graph: 1.0.0
 
@@ -1040,7 +1036,7 @@ snapshots:
   '@11ty/eleventy-plugin-rss@2.0.4':
     dependencies:
       '@11ty/eleventy-utils': 2.0.7
-      '@11ty/posthtml-urls': 1.0.1
+      '@11ty/posthtml-urls': 1.0.2
       debug: 4.4.3
       posthtml: 0.16.7
     transitivePeerDependencies:
@@ -1054,14 +1050,14 @@ snapshots:
 
   '@11ty/eleventy@3.1.2':
     dependencies:
-      '@11ty/dependency-tree': 4.0.0
-      '@11ty/dependency-tree-esm': 2.0.2
+      '@11ty/dependency-tree': 4.0.1
+      '@11ty/dependency-tree-esm': 2.0.3
       '@11ty/eleventy-dev-server': 2.0.8
       '@11ty/eleventy-plugin-bundle': 3.0.7(posthtml@0.16.7)
       '@11ty/eleventy-utils': 2.0.7
       '@11ty/lodash-custom': 4.17.21
-      '@11ty/posthtml-urls': 1.0.1
-      '@11ty/recursive-copy': 4.0.2
+      '@11ty/posthtml-urls': 1.0.2
+      '@11ty/recursive-copy': 4.0.3
       '@sindresorhus/slugify': 2.2.1
       bcp-47-normalize: 2.3.0
       chokidar: 3.6.0
@@ -1094,14 +1090,14 @@ snapshots:
 
   '@11ty/lodash-custom@4.17.21': {}
 
-  '@11ty/posthtml-urls@1.0.1':
+  '@11ty/posthtml-urls@1.0.2':
     dependencies:
       evaluate-value: 2.0.0
       http-equiv-refresh: 2.0.1
       list-to-array: 1.1.0
       parse-srcset: 1.0.2
 
-  '@11ty/recursive-copy@4.0.2':
+  '@11ty/recursive-copy@4.0.3':
     dependencies:
       errno: 1.0.0
       junk: 3.1.0
@@ -1394,7 +1390,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  eleventy-plugin-icons@4.5.4:
+  eleventy-plugin-icons@4.5.7:
     dependencies:
       fast-xml-parser: 4.5.3
       just-extend: 6.2.0
@@ -1462,14 +1458,14 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
-  finalhandler@1.3.1:
+  finalhandler@1.3.2:
     dependencies:
       debug: 2.6.9
       encodeurl: 2.0.0
       escape-html: 1.0.3
       on-finished: 2.4.1
       parseurl: 1.3.3
-      statuses: 2.0.1
+      statuses: 2.0.2
       unpipe: 1.0.0
     transitivePeerDependencies:
       - supports-color
@@ -1586,7 +1582,7 @@ snapshots:
 
   list-to-array@1.1.0: {}
 
-  lucide-static@0.555.0: {}
+  lucide-static@0.556.0: {}
 
   luxon@3.7.2: {}
 
@@ -1818,7 +1814,7 @@ snapshots:
       '@img/sharp-win32-ia32': 0.33.5
       '@img/sharp-win32-x64': 0.33.5
 
-  simple-icons@15.22.0: {}
+  simple-icons@16.1.0: {}
 
   simple-swizzle@0.2.4:
     dependencies:
@@ -1835,8 +1831,6 @@ snapshots:
   ssri@11.0.0:
     dependencies:
       minipass: 7.1.2
-
-  statuses@2.0.1: {}
 
   statuses@2.0.2: {}
 

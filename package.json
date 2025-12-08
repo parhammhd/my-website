@@ -12,17 +12,17 @@
   "type": "module",
   "author": "Parham Mohammadi <me@parham.dev>",
   "license": "ISC",
-  "packageManager": "pnpm@10.23.0+sha512.21c4e5698002ade97e4efe8b8b4a89a8de3c85a37919f957e7a0f30f38fbc5bbdd05980ffe29179b2fb6e6e691242e098d945d1601772cad0fef5fb6411e2a4b",
+  "packageManager": "pnpm@10.24.0+sha512.01ff8ae71b4419903b65c60fb2dc9d34cf8bb6e06d03bde112ef38f7a34d6904c424ba66bea5cdcf12890230bf39f9580473140ed9c946fef328b6e5238a345a",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-img": "^6.0.4",
-    "@11ty/eleventy-navigation": "^1.0.4",
+    "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
     "@tabler/icons": "^3.35.0",
     "dotenv": "^17.2.3",
-    "eleventy-plugin-icons": "^4.5.4",
-    "lucide-static": "^0.555.0",
+    "eleventy-plugin-icons": "^4.5.7",
+    "lucide-static": "^0.556.0",
     "markdown-it": "^14.1.0",
     "markdown-it-abbr": "^2.0.0",
     "markdown-it-anchor": "^9.2.0",
@@ -30,7 +30,7 @@
     "markdown-it-collapsible": "^2.0.2",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-obsidian-callouts": "^0.3.3",
-    "simple-icons": "^15.22.0"
+    "simple-icons": "^16.1.0"
   },
   "devDependencies": {
     "eleventy-plugin-webmentions": "^2.1.0"
