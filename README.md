@@ -15,7 +15,7 @@ Welcome to the repository for my personal website! This site is a showcase of my
 - **Static Site Generator:** [Eleventy (11ty)](https://www.11ty.dev/)
 - **CSS Framework:** [simple.css](https://simplecss.org/) with customizations
 - **Fonts:** Self-hosted open-source fonts
-- **Hosting:** Self-hosted on a Debian 12 VPS with Caddy
+- **Hosting:** Self-hosted on an Alpine 3.23 VPS with Caddy
 
 ## Development
 
