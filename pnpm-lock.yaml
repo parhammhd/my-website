@@ -33,8 +33,8 @@ importers:
         specifier: ^4.5.7
         version: 4.5.7
       lucide-static:
-        specifier: ^0.559.0
-        version: 0.559.0
+        specifier: ^0.561.0
+        version: 0.561.0
       markdown-it:
         specifier: ^14.1.0
         version: 14.1.0
@@ -651,8 +651,8 @@ packages:
   list-to-array@1.1.0:
     resolution: {integrity: sha512-+dAZZ2mM+/m+vY9ezfoueVvrgnHIGi5FvgSymbIgJOFwiznWyA59mav95L+Mc6xPtL3s9gm5eNTlNtxJLbNM1g==}
 
-  lucide-static@0.559.0:
-    resolution: {integrity: sha512-xnc1YpWPrp7O3GY/GnxdJtUKx5F5AwqsCL2KACGG7ZEdJEmmlxAgrf7LD43/rARZSFgBXno5ja+OxwpuqXiCEA==}
+  lucide-static@0.561.0:
+    resolution: {integrity: sha512-g8ZH7FmkASB/fxutFHXqsBdJnM9S9/p1Mei005CskWTws7+U+evwZUVWUyz8CSquJ8p4G/CBJ488Ip3ZlamxfQ==}
 
   luxon@3.7.2:
     resolution: {integrity: sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew==}
@@ -1582,7 +1582,7 @@ snapshots:
 
   list-to-array@1.1.0: {}
 
-  lucide-static@0.559.0: {}
+  lucide-static@0.561.0: {}
 
   luxon@3.7.2: {}
 

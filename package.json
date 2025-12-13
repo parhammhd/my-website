@@ -22,7 +22,7 @@
     "@tabler/icons": "^3.35.0",
     "dotenv": "^17.2.3",
     "eleventy-plugin-icons": "^4.5.7",
-    "lucide-static": "^0.559.0",
+    "lucide-static": "^0.561.0",
     "markdown-it": "^14.1.0",
     "markdown-it-abbr": "^2.0.0",
     "markdown-it-anchor": "^9.2.0",
