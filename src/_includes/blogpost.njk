@@ -6,20 +6,24 @@ siteName: "The Sweet Blog"
 <article class="h-entry">
   <h1 class="p-name">{{ title }}</h1>
 
-  <p class="post-meta">
-    <time class="dt-published" datetime="{{ date | iso }}">
-      {% icon "calendar-week", class="text-icon" %}{{ date | readableDate }}
-    </time>
+  <div class="post-meta">
+    <span>
+      <time class="dt-published" datetime="{{ date | iso }}">
+        {% icon "calendar-week", class="text-icon" %}{{ date | readableDate }}
+      </time>
+    </span>
 
-    {% icon "clock", class="text-icon" %}{{ content | timeToRead }} read
+    <span>
+      {% icon "clock", class="text-icon" %}{{ content | timeToRead }} read
+    </span>
 
     <span class="p-author h-card" hidden>
-      <a class="u-url u-uid" rel="author" href="{{ author.href }}">
+      <a class="u-url u-uid" rel="author" href="{{ author.href }}" hidden>
         <img eleventy:ignore class="u-photo" src="/profile.jpg" alt="Parham Mohammadi" width="512" height="512" hidden>
         {{ author.name }}
       </a>
     </span>
-  </p>
+  </div>
 
   <div class="e-content reader-bar-start">
     {{ content | safe }}
