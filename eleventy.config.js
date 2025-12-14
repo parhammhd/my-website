@@ -5,6 +5,7 @@ import eleventyPluginIcons from 'eleventy-plugin-icons';
 import eleventyPluginNavigation from '@11ty/eleventy-navigation';
 import eleventyPluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import webmentionsPlugin from "eleventy-plugin-webmentions";
+import timeToRead from "eleventy-plugin-time-to-read";
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
 import markdownItAbbr from 'markdown-it-abbr';
@@ -99,6 +100,7 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyPluginNavigation);
   eleventyConfig.addPlugin(eleventyPluginSyntaxHighlight);
+  eleventyConfig.addPlugin(timeToRead);
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     transformImgAttributes: (attributes) => {
