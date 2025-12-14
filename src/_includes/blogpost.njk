@@ -21,8 +21,9 @@ siteName: "The Sweet Blog"
     </span>
   </p>
 
-  <div class="e-content">
+  <div class="e-content reader-bar-start">
     {{ content | safe }}
+    {% readerBar "7px", "var(--bg)", "var(--accent-bg)", "0px" %}
   </div>
 
   <!-- Add canonical post URL for u-url and u-uid -->

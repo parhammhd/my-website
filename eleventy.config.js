@@ -6,6 +6,7 @@ import eleventyPluginNavigation from '@11ty/eleventy-navigation';
 import eleventyPluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import webmentionsPlugin from "eleventy-plugin-webmentions";
 import timeToRead from "eleventy-plugin-time-to-read";
+import readerBar from "eleventy-plugin-reader-bar";
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
 import markdownItAbbr from 'markdown-it-abbr';
@@ -104,6 +105,8 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(timeToRead, {
     speed: '800 characters per minute'
   });
+
+  eleventyConfig.addPlugin(readerBar);
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     transformImgAttributes: (attributes) => {
