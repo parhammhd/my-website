@@ -1,0 +1,11 @@
+/* TEAM */
+	Author: Parham Mohammadi
+	Role: Designer, Developer
+	Contact: me [at] parham.dev
+	From: Tehran, Iran
+
+/* SITE */
+	Last update: 2025/12/14
+	Language: English
+	Doctype: HTML5
+	IDE: Visual Studio Code
