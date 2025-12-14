@@ -11,6 +11,8 @@ siteName: "The Sweet Blog"
       {% icon "calendar-week", class="text-icon" %}{{ date | readableDate }}
     </time>
 
+    {% icon "clock", class="text-icon" %}{{ content | timeToRead }} read
+
     <span class="p-author h-card" hidden>
       <a class="u-url u-uid" rel="author" href="{{ author.href }}">
         <img eleventy:ignore class="u-photo" src="/profile.jpg" alt="Parham Mohammadi" width="512" height="512" hidden>

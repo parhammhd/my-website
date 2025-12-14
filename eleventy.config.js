@@ -100,7 +100,10 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyPluginNavigation);
   eleventyConfig.addPlugin(eleventyPluginSyntaxHighlight);
-  eleventyConfig.addPlugin(timeToRead);
+
+  eleventyConfig.addPlugin(timeToRead, {
+    speed: '800 characters per minute'
+  });
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     transformImgAttributes: (attributes) => {
