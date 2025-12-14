@@ -82,7 +82,7 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyPluginIcons, {
     mode: 'inline',
-    sources: [{ name: 'tablar', path: 'node_modules/@tabler/icons/icons/outline', default: true }, { name: 'lucide', path: 'node_modules/lucide-static/icons' }, { name: 'simple', path: 'node_modules/simple-icons/icons' }],
+    sources: [{ name: 'tabler', path: 'node_modules/@tabler/icons/icons/outline', default: true }, { name: 'lucide', path: 'node_modules/lucide-static/icons' }, { name: 'simple', path: 'node_modules/simple-icons/icons' }],
     icon: {
       shortcode: 'icon',
       delimiter: ':',
