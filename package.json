@@ -35,6 +35,7 @@
     "simple-icons": "^16.2.0"
   },
   "devDependencies": {
+    "eleventy-plugin-llms": "^0.1.0",
     "eleventy-plugin-webmentions": "^2.1.0"
   }
 }

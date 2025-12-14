@@ -66,6 +66,9 @@ importers:
         specifier: ^16.2.0
         version: 16.2.0
     devDependencies:
+      eleventy-plugin-llms:
+        specifier: ^0.1.0
+        version: 0.1.0
       eleventy-plugin-webmentions:
         specifier: ^2.1.0
         version: 2.1.0
@@ -443,6 +446,9 @@ packages:
   eleventy-plugin-icons@4.5.7:
     resolution: {integrity: sha512-daunsT7kZlIxH3mBG/TJf3wULkv0wFrUI/wj5DW5IlccJ9cutWcGgZ7XbCFX6TLTwU6Bd1M0CXmOWz2i8KOFJA==}
     engines: {node: '>=16.20.2'}
+
+  eleventy-plugin-llms@0.1.0:
+    resolution: {integrity: sha512-6DBdGAQ4VFJJdx0xdW73AXGcfwgiEwuszprIlTLXYnvBodfeXlBkhnBeX3gqFmJ/QYL0ojLiRaBW0JnDwJTf3Q==}
 
   eleventy-plugin-reader-bar@0.2.1:
     resolution: {integrity: sha512-yXMZ28dBpJtxveO30e8dVgcv560hlOT9lv1TpuDRXDo/AksmFgjdhAalR8HADMIo4P8hmJzDYjc9kSg4KWKRqA==}
@@ -1417,6 +1423,8 @@ snapshots:
       just-memoize: 2.2.0
       just-typeof: 3.2.0
       kleur: 4.1.5
+
+  eleventy-plugin-llms@0.1.0: {}
 
   eleventy-plugin-reader-bar@0.2.1(@11ty/eleventy@3.1.2):
     dependencies:
