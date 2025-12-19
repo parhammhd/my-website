@@ -2,7 +2,7 @@
 title: "Quiet Roads, Open Skies: My Journey to Village Life"
 description: "About the quiet changes, the challenges, and the unexpected beauty I’ve found in this new chapter of life."
 date: 2025-09-01
-tags: [life, farm, village, simplicity, experiences, feelings]
+tags: [life, farm, village, simplicity, experience, feelings]
 ---
 
 ## Back to Writing and Myself
