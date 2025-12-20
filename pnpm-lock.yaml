@@ -75,8 +75,8 @@ importers:
 
 packages:
 
-  '@11ty/dependency-tree-esm@2.0.3':
-    resolution: {integrity: sha512-zlcfZq5WC9ksnLeLBROshNeE9P1jvOAPvUY9787cND/7SKf+QM7RGjNyF5taoCQww12B6Dx0Y9cwXsNbRipzlA==}
+  '@11ty/dependency-tree-esm@2.0.4':
+    resolution: {integrity: sha512-MYKC0Ac77ILr1HnRJalzKDlb9Z8To3kXQCltx299pUXXUFtJ1RIONtULlknknqW8cLe19DLVgmxVCtjEFm7h0A==}
 
   '@11ty/dependency-tree@4.0.1':
     resolution: {integrity: sha512-6EPI9ZkGU4BX2KNZpWlf4WdV3vrmIWQpn//nAXicTzdPubI3jZlmFdqEv0Yj5M7oavRUGNzw9GbV9cBxhulZWw==}
@@ -993,7 +993,7 @@ packages:
 
 snapshots:
 
-  '@11ty/dependency-tree-esm@2.0.3':
+  '@11ty/dependency-tree-esm@2.0.4':
     dependencies:
       '@11ty/eleventy-utils': 2.0.7
       acorn: 8.15.0
@@ -1077,7 +1077,7 @@ snapshots:
   '@11ty/eleventy@3.1.2':
     dependencies:
       '@11ty/dependency-tree': 4.0.1
-      '@11ty/dependency-tree-esm': 2.0.3
+      '@11ty/dependency-tree-esm': 2.0.4
       '@11ty/eleventy-dev-server': 2.0.8
       '@11ty/eleventy-plugin-bundle': 3.0.7(posthtml@0.16.7)
       '@11ty/eleventy-utils': 2.0.7
