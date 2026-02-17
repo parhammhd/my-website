@@ -16,11 +16,9 @@ Hello there, and thanks for visiting! This is a space where I share my thoughts,
 
 In *The Sweet Blog*, you'll find a variety of posts on topics ranging from **programming** and **web development** to my personal experiences and insights. I try to keep things fun, insightful, and, of course, sweet!
 
-### 🛠️ **What's Coming Soon?**
+### 🛠️ **Tech Projects**
 
-- **Tech Projects:** I’ll be sharing some of my ongoing projects soon, including tutorials and guides for the **smolweb** community and other web development topics.
-- **Learning Journeys:** Follow along as I explore new languages, frameworks, and technologies, and share my learning process with you!
-- **Personal Musings:** A few random thoughts on life, tech, and everything in between.
+I’ll be sharing some of my ongoing projects soon, including tutorials and guides for the **smolweb** community and other web development topics.
 
 I’m constantly adding new content, so be sure to check back often!
 

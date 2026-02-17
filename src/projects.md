@@ -25,10 +25,10 @@ A work-in-progress Android browser for alternative, small-scale internet protoco
 
 ### [This Website](https://github.com/parhammhd/my-website){target="_blank" rel="noopener"}
 
-The source code for [parham.dev](https://parham.dev) itself — a minimalist, fast, privacy-friendly personal site built with [Eleventy](https://11ty.dev){target="_blank" rel="noopener"} and [Simple.css](https://simplecss.org/){target="_blank" rel="noopener"}. This project reflects my interests in clean web development and self-hosting.
+The source code for [parham.dev](https://parham.dev) itself — a minimalist, fast, privacy-friendly personal site built with [Eleventy](https://11ty.dev){target="_blank" rel="noopener"} and [Simple.css](https://simplecss.org/){target="_blank" rel="noopener"}. This project reflects my interests in clean web development.
 
 > 📦 *Technologies:* Eleventy, Markdown, Simple.css, custom Nunjucks templates  
-> 📌 *Highlights:* Static, fully self-hosted, no JS required for core functionality
+> 📌 *Highlights:* Static, no JS required for core functionality
 
 ---
 
