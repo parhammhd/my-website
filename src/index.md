@@ -2,7 +2,7 @@
 layout: base.njk
 title: "Parham's Digital Corner"
 siteName: "Parham's Digital Corner"
-description: "Here is my website. You can explore the blog, and other parts which will be added soon."
+description: "Here is my website. You can explore the blog, and other parts of it."
 eleventyNavigation:
   key: Home
   order: 1
