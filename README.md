@@ -1,6 +1,6 @@
 # My Personal Website
 
-Welcome to the repository for my personal website! This site is a showcase of my projects, blog posts, and interests, built using Eleventy (11ty) and deployed on my VPS.
+Welcome to the repository for my personal website! This site is a showcase of my projects, blog posts, and interests, built using Eleventy (11ty) and deployed on Github Pages.
 
 ## Features
 
@@ -15,7 +15,7 @@ Welcome to the repository for my personal website! This site is a showcase of my
 - **Static Site Generator:** [Eleventy (11ty)](https://www.11ty.dev/)
 - **CSS Framework:** [simple.css](https://simplecss.org/) with customizations
 - **Fonts:** Self-hosted open-source fonts
-- **Hosting:** Self-hosted on an Alpine 3.23 VPS with Caddy
+- **Hosting:** Github Pages
 
 ## Development
 
@@ -44,7 +44,7 @@ To run the project locally:
 
 ## Deployment
 
-The site is deployed to my VPS using a Github Actions Workflow. The public folder is served by Caddy.
+The site is deployed to Github Pages using a Github Actions Workflow.
 
 ## Contributing
 
