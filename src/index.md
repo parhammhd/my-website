@@ -8,17 +8,23 @@ eleventyNavigation:
   order: 1
 ---
 
-## Welcome to My Corner of the Web\!
+## Welcome to My Corner of the Web
 
-Hello there, and thanks for visiting! This is a space where I share my thoughts, projects, and ideas.
+Hello there, and thanks for visiting! This is a space where I share my thoughts, projects, and ideas. 
 
 ### [📚 **The Sweet Blog**](/posts)
 
-In *The Sweet Blog*, you'll find a variety of posts on topics ranging from **programming** and **web development** to my personal experiences and insights. I try to keep things fun, insightful, and, of course, sweet!
+In *The Sweet Blog*, you can find a variety of posts on topics ranging from **programming** and **web development** to my personal experiences and insights. I try to keep things fun, insightful, and, of course, sweet!
 
 ### [🛠️ **Tech Projects**](/projects)
 
-I’ll be sharing some of my ongoing projects soon, including tutorials and guides for the **smolweb** community and other web development topics.
+Here is where I put my tech projects, including this website's source code.
+
+### [🧑🏻 **Contact Info**](/contact)
+
+You can find my contact info here.  
+
+---
 
 I’m constantly adding new content, so be sure to check back often!
 
