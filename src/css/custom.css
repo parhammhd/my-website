@@ -82,7 +82,17 @@
 }
 
 .post-meta a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+/* Remove underline from all links site-wide */
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
 }
 
 h1,
