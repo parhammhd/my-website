@@ -82,17 +82,7 @@
 }
 
 .post-meta a:hover {
-  text-decoration: none;
-}
-
-/* Only remove underlines from links (affects only text-decoration) */
-a,
-a:link,
-a:visited,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h1,
