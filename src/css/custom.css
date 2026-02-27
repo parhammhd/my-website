@@ -85,6 +85,18 @@
   text-decoration: underline;
 }
 
+/* Only remove underlines from links (affects only text-decoration) */
+a:link,
+a:visited,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 h1,
 h2,
 h3,
