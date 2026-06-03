@@ -21,12 +21,24 @@ export default async function(eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/fonts/');
   eleventyConfig.addWatchTarget('./src/img/');
 
+  // Build-time version string used for cache-busting static assets.
+  // This value is calculated once per build so browsers will fetch
+  // new files when you run a new build.
+  const buildTimestamp = Date.now();
+
   eleventyConfig.addPassthroughCopy('./src/css/');
   eleventyConfig.addPassthroughCopy('./src/fonts/');
   eleventyConfig.addPassthroughCopy('./src/img/');
   eleventyConfig.addPassthroughCopy({ "src/static": "/" });
 
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
+
+  // Append a build version query string to asset URLs.
+  eleventyConfig.addFilter('assetVersion', (assetUrl) => {
+    if (!assetUrl) return assetUrl;
+    // If the URL already has query params, append with & otherwise use ?
+    return assetUrl.includes('?') ? `${assetUrl}&v=${buildTimestamp}` : `${assetUrl}?v=${buildTimestamp}`;
+  });
 
   eleventyConfig.addFilter("iso", (value) => {
     return new Date(value).toISOString();
