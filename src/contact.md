@@ -48,6 +48,7 @@ I have the following accounts on the Fediverse:
 
 ### Nostr
 
+- **Njump page:** [Parham on Nostr](https://njump.me/npub1mmuumn4keztaxxd4ntm9lmtq5yltc0rnsvfm7au87wghrj7t6vmsatq0n8){target="_blank" rel="noopener"}
 - **Username (NIP-05):** `_@parham.dev`{style="word-break: break-word; white-space: pre-wrap;"}
 - **Public key (npub):** `npub1mmuumn4keztaxxd4ntm9lmtq5yltc0rnsvfm7au87wghrj7t6vmsatq0n8`{style="word-break: break-word; white-space: pre-wrap;"}
 
