@@ -59,6 +59,11 @@
   margin-left: 1em;
 }
 
+.reply-by-email-icon {
+  vertical-align: -0.25em; /* Adjust to lift the icon slightly */
+  margin-right: 0.1em; /* Spacing between the icon and the text */
+}
+
 /* Base document font */
 body {
   font-family: var(--sans-font);
@@ -154,6 +159,11 @@ input[type="button"] {
   padding: 0.5rem 0.9rem;
   text-decoration: none;
   line-height: normal;
+}
+
+.post-actions {
+  text-align: center;
+  margin: 1.5rem 0;
 }
 
 /* Highlight active navigation link */
