@@ -1,4 +1,3 @@
-import "dotenv/config";
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import { feedPlugin } from '@11ty/eleventy-plugin-rss';
 import eleventyPluginIcons from 'eleventy-plugin-icons';
