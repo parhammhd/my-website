@@ -96,12 +96,15 @@ body {
   flex-wrap: wrap;
   gap: 0.75rem;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
 }
 
-.post-tags .text-icon {
-  margin-left: 0;
-  margin-right: 0.5em;
+article:has(hr.footnotes-sep) .post-tags {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 1.5rem;
 }
 
 .post-tags .tag {

@@ -27,17 +27,20 @@ siteName: "The Sweet Blog"
 
   <div class="e-content reader-bar-start">
     {{ content | safe }}
+
+    {% if tags %}
+      <p class="post-tags">
+        {% icon "tag", class="tag-icon" %}
+        {% for tag in tags %}
+          <a href="/posts/tags/{{ tag }}/" class="tag">#{{ tag }}</a>
+        {% endfor %}
+      </p>
+    {% endif %}
+
+    <a class="button" href="mailto:me@parham.dev?subject=Reply to: {{ title }}">Reply by email</a>
+
     {% readerBar "7px", "var(--bg)", "var(--accent-bg)", "0px" %}
   </div>
-
-  {% if tags %}
-    <p class="post-tags">
-      {% icon "tag", class="tag-icon" %}
-      {% for tag in tags %}
-        <a href="/posts/tags/{{ tag }}/" class="tag">#{{ tag }}</a>
-      {% endfor %}
-    </p>
-  {% endif %}
 
   <!-- Add canonical post URL for u-url and u-uid -->
   <a class="u-url u-uid" href="{{ page.url | url }}"></a>
