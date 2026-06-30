@@ -37,8 +37,6 @@ jobs:
 
       - name: Build
         run: pnpm build
-        env:
-          WEBMENTION_IO_TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
