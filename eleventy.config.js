@@ -4,7 +4,6 @@ import { feedPlugin } from '@11ty/eleventy-plugin-rss';
 import eleventyPluginIcons from 'eleventy-plugin-icons';
 import eleventyPluginNavigation from '@11ty/eleventy-navigation';
 import eleventyPluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
-import webmentionsPlugin from "eleventy-plugin-webmentions";
 import timeToRead from "eleventy-plugin-time-to-read";
 import readerBar from "eleventy-plugin-reader-bar";
 import eleventyPluginLlms from "eleventy-plugin-llms";
@@ -138,25 +137,6 @@ export default async function(eleventyConfig) {
       return attributes;
     }
     // Plugin options go here
-  });
-
-  eleventyConfig.addPlugin(webmentionsPlugin, {
-    domain: "parham.dev",
-    token: process.env.WEBMENTION_IO_TOKEN,
-    cacheDirectory: "./_webmentioncache",
-    cacheTime: 3600,
-    truncate: true,
-    maxContentLength: 280,
-    truncationMarker: "&hellip;",
-    htmlContent: true,
-    useCanonicalTwitterUrls: true,
-    pageAliases: {},
-    mentionTypes: {
-      likes: ["like-of"],
-      reposts: ["repost-of"],
-      comments: ["in-reply-to"],
-      mentions: ["mention-of"],
-    },
   });
 
   eleventyConfig.addPlugin(feedPlugin, {
