@@ -10,7 +10,9 @@ eleventyComputed:
 siteName: "The Sweet Blog"
 ---
 
-<h3>Tagged:</h3><tag class="tag">{% icon "tag", class="tag-icon" %} {{ tag }}</tag>
+<h3>
+  Tagged: #{{ tag }}
+</h3>
 <br>
 <br>
 {% for post in collections.posts | filterByTag(tag) %}

@@ -5,10 +5,10 @@ siteName: "The Sweet Blog Tags"
 ---
 
 <h2>Tags:</h2>
-<ul>
+<div class="tag-list">
   {% for tag in collections | getAllTags %}
     {% if tag != "posts" %}
-      <a href="/posts/tags/{{ tag }}/" class="tag">{% icon "tag", class="tag-icon" %} {{ tag }}</a>
+      <a href="/posts/tags/{{ tag }}/" class="tag">#{{ tag }}</a>
     {% endif %}
   {% endfor %}
-</ul>
+</div>

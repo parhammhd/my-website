@@ -90,6 +90,36 @@ body {
   text-decoration: none;
 }
 
+/* Tags inside blog posts */
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.post-tags .text-icon {
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+
+.post-tags .tag {
+  display: inline;
+  background: transparent;
+  color: var(--accent);
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.post-tags .tag:hover,
+.post-tags .tag:focus {
+  text-decoration: underline;
+}
+
 /* Only remove underlines from links (affects only text-decoration) */
 a,
 a:link,
@@ -213,25 +243,28 @@ input[type="button"] {
 
 
 
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+}
+
 .tag {
-  display: inline-block;
-  background: var(--accent-bg);
+  display: inline;
+  background: transparent;
   color: var(--accent);
-  border: 1px solid var(--accent);
-  border-radius: 999px;
-  padding: 0.4em 1em;
-  font-size: 0.95em;
-  margin: 0 0.2em 0.2em 0;
+  border: none;
+  padding: 0;
+  margin: 0;
   text-decoration: none;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  font-weight: 700;
 }
 
 .tag:hover,
 .tag:focus {
-  background: var(--accent);
-  color: var(--accent-text);
-  border-color: var(--accent-hover);
-  text-decoration: none;
+  text-decoration: underline;
   outline: none;
 }
 
