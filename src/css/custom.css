@@ -228,19 +228,34 @@ input[type="button"] {
 
 
 
-/* Shantell Sans variable font (single variable file) */
 @font-face {
   font-family: 'Shantell Sans';
-  src: url('/fonts/ShantellSans[BNCE,INFM,SPAC,ital,wght].woff2') format('woff2-variations');
-  font-weight: 100 900;
+  src: url('/fonts/Shantell_Sans-Normal-Regular.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Shantell Sans';
-  src: url('/fonts/ShantellSans[BNCE,INFM,SPAC,ital,wght].woff2') format('woff2-variations');
-  font-weight: 100 900;
+  src: url('/fonts/Shantell_Sans-Normal-Regular_Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Shantell Sans';
+  src: url('/fonts/Shantell_Sans-Normal-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Shantell Sans';
+  src: url('/fonts/Shantell_Sans-Normal-Bold_Italic.woff2') format('woff2');
+  font-weight: 700;
   font-style: italic;
   font-display: swap;
 }
