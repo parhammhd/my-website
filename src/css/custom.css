@@ -54,14 +54,20 @@
 }
 
 .icon {
-  vertical-align: -0.25em; /* Adjust to lift the icon slightly */
-  margin-right: 0.1em; /* Spacing between the icon and the text */
+  vertical-align: -0.25em;
+  margin-right: 0.1em;
 }
 
 .text-icon {
-  vertical-align: -0.25em; /* Adjust to lift the icon slightly */
-  margin-right: 0.1em; /* Spacing between the icon and the text */
+  vertical-align: -0.25em;
+  margin-right: 0.1em;
   margin-left: 1em;
+}
+
+.footer-icon {
+  vertical-align: -0.25em;
+  margin-top: -0.5em;
+  margin-right: -0.2em;
 }
 
 /* Base document font */
