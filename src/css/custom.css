@@ -172,20 +172,27 @@ input[type="button"] {
   margin: 1.5rem 0;
 }
 
-/* Highlight active navigation link */
+/* Highlight active navigation link without changing the button size */
 .nav-link.active {
-    font-weight: bold; /* Make it bold */
-    background-color: var(--nav-active-bg); /* Use a custom background color */
-    color: var(--nav-acive-text); /* Use a custom color*/
+  font-size: inherit;
+  font-weight: 400;
+  background-color: var(--nav-active-bg);
+  color: var(--nav-acive-text);
+  border-color: var(--accent);
 }
 
+.nav-link.active:hover,
+.nav-link.active:focus-visible {
+  font-size: inherit;
+  font-weight: 400;
+}
 
 /* Reduce nav side on mobile */
 @media only screen and (max-width: 720px) {
-    .nav-link.active {
-      background-color: transparent;
-    }
+  .nav-link.active {
+    background-color: transparent;
   }
+}
   
 
   body > footer {
