@@ -19,7 +19,7 @@
   --marked: #ffd966; /* warm yellow highlight */
   --disabled: #f0edf0;
   --nav-active-bg: var(--bg);
-  --nav-acive-text: var(--text);
+  --nav-acive-text: var(--accent-hover);
   --button-bg: var(--accent);
   --button-text: var(--accent-text);
 }
@@ -42,7 +42,7 @@
     --marked: #ffd966; /* consistent yellow highlight */
     --disabled: #0b1220;
     --nav-active-bg: var(--accent);
-    --nav-acive-text: var(--text);
+    --nav-acive-text: var(--accent-hover);
     --button-bg: var(--accent);
     --button-text: var(--accent-text);
   }
