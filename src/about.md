@@ -1,8 +1,8 @@
 ---
 layout: base.njk
-title: "About Parham"
-siteName: "About Parham"
-description: "Learn more about me!"
+title: "About the Parham guy in parham.dev · parham.dev"
+siteName: "About the Parham guy in parham.dev · parham.dev"
+description: "About Me page"
 eleventyNavigation:
   key: About
   order: 6

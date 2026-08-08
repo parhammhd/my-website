@@ -1,8 +1,8 @@
 ---
 layout: base.njk
-title: "Parham's Projects"
-siteName: "Parham's Projects"
-description: "My Projects"
+title: "Projects · parham.dev"
+siteName: "Projects · parham.dev"
+description: "Projects page"
 eleventyNavigation:
   key: Projects
   order: 3

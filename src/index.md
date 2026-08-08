@@ -1,8 +1,8 @@
 ---
 layout: base.njk
-title: "Parham's Digital Corner"
-siteName: "Parham's Digital Corner"
-description: "Here is my website. You can explore the blog, and other parts of it."
+title: "Parham's Digital Corner · parham.dev"
+siteName: "Parham's Digital Corner · parham.dev"
+description: "Homepage of parham.dev"
 eleventyNavigation:
   key: Home
   order: 1

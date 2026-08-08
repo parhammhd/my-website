@@ -1,13 +1,8 @@
 ---
 layout: cv.njk
-title: "Curriculum Vitae - Parham"
-siteName: "Curriculum Vitae - Parham"
-description: "Parham Mohammadi's CV"
-eleventyNavigation:
-  key: CV
-  order: 5
-  target: _blank
-  rel: noopener
+title: "Curriculum Vitae · parham.dev"
+siteName: "Curriculum Vitae · parham.dev"
+description: "The CV of the creator of parham.dev"
 ---
 
 This is hidden😄

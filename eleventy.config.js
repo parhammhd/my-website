@@ -146,7 +146,7 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "The Sweet Blog",
+			title: "The Sweet Blog · parham.dev",
 			subtitle: "Dive into the latest posts on The Sweet Blog. Explore insightful stories and ideas.",
 			base: "https://parham.dev/",
 			author: {
@@ -165,7 +165,7 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "The Sweet Blog",
+			title: "The Sweet Blog · parham.dev",
 			subtitle: "Dive into the latest posts on The Sweet Blog. Explore insightful stories and ideas.",
 			base: "https://parham.dev/",
 			author: {
@@ -184,7 +184,7 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "The Sweet Blog",
+			title: "The Sweet Blog · parham.dev",
 			subtitle: "Dive into the latest posts on The Sweet Blog. Explore insightful stories and ideas.",
 			base: "https://parham.dev/",
 			author: {

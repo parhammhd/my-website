@@ -1,8 +1,8 @@
 ---
 layout: base.njk
-title: "Feeds"
-siteName: "Feeds"
-description: "Subscribe to updates from my blog"
+title: "Feeds · parham.dev"
+siteName: "Feeds · parham.dev"
+description: "All the feed types in a page"
 ---
 
 ## Feeds

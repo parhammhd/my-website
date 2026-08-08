@@ -1,5 +1,5 @@
 ---
-title: "Quiet Roads, Open Skies: My Journey to Village Life"
+title: "Quiet Roads, Open Skies: My Journey to Village Life · parham.dev"
 description: "About the quiet changes, the challenges, and the unexpected beauty I’ve found in this new chapter of life."
 date: 2025-09-01
 tags: [life, farm, village, simplicity, experience, feelings]

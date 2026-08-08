@@ -1,11 +1,11 @@
 ---
 layout: base.njk
-title: "Parham's Contact Info"
-siteName: "Parham's Contact Info"
-description: "Contact me!"
+title: "Contact Info · parham.dev"
+siteName: "Contact Info · parham.dev"
+description: "Contact Info page"
 eleventyNavigation:
   key: Contact
-  order: 4
+  order: 5
 ---
 
 ## Contact Me
