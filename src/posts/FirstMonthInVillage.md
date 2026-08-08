@@ -5,9 +5,7 @@ date: 2025-09-01
 tags: [life, farm, village, simplicity, experience, feelings]
 ---
 
-## Back to Writing and Myself
-
-After about nine months away from this blog, I’m writing again — and in many ways, rediscovering myself too. I’ve come to feel that humans are more at home in natural environments, and that the noise and pace of mega-cities aren’t where we truly belong. This space is where I’ll share that journey as it unfolds.
+After months away from this website, I’m going to begin writing — and in many ways, discovering myself too. I’ve come to feel that humans are more at home in natural environments, and that the noise and pace of mega-cities aren’t where we truly belong. This space is where I’ll share that journey as it unfolds.
 
 ### The Dream
 
@@ -36,8 +34,6 @@ Okay, maybe I’m getting ahead of myself. Of course, not everyone thinks this w
 In the end, perhaps life isn’t about waiting for the perfect circumstances — it’s about creating them where we are. Living here has reminded me that exploration, creation, and wonder can exist in our everyday choices, if we let them.
 
 And so, life unfolds here — quietly, fully, and surprisingly alive.
-
-Until the next post, hopefully soon!
 
 [^1]: but not too cloudy
 [^2]: I especially adore the ducks!
