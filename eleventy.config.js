@@ -10,7 +10,6 @@ import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
 import markdownItAbbr from 'markdown-it-abbr';
 import markdownItAnchor from 'markdown-it-anchor';
-import markdownItCallouts from 'markdown-it-obsidian-callouts';
 import markdownItCollapsible from 'markdown-it-collapsible';
 import markdownItFootnote from 'markdown-it-footnote';
 
