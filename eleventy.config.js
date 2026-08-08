@@ -206,7 +206,6 @@ export default async function(eleventyConfig) {
       .use(markdownItAbbr)
       .use(markdownItAnchor)
       .use(markdownItCollapsible)
-      .use(markdownItCallouts)
       .use(markdownItFootnote)
   );
 };
