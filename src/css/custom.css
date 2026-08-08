@@ -1,8 +1,8 @@
 :root,
 ::backdrop {
   --sans-font: 'Shantell Sans', Georgia, 'Segoe UI', 'Helvetica Neue', sans-serif; /* For body */
-  --mono-font: 'Annotation Mono', Consolas, monospace; /* For code blocks */
-  --heading-font: 'Annotation Mono', Consolas, monospace; /* For headings (use bold style) */
+  --mono-font: 'Recursive Mono', Consolas, monospace; /* For code blocks */
+  --heading-font: 'Recursive Sans', Consolas, monospace; /* For headings (use bold style) */
   --standard-border-radius: 5px;
 
   /* Default (light) theme */
@@ -268,15 +268,16 @@ input[type="button"] {
 }
 
 @font-face {
-  font-family: 'Annotation Mono';
-  src: url('/fonts/AnnotationMono-Regular.woff2') format('woff2');
+  font-family: 'Recursive Mono';
+  src: url('/fonts/RecursiveMonoCslSt-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Annotation Mono';
-  src: url('/fonts/AnnotationMono-Bold.woff2') format('woff2');
+  font-family: 'Recursive Sans';
+  src: url('/fonts/RecursiveSansCslSt-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
