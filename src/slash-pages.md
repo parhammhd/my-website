@@ -7,3 +7,5 @@ eleventyNavigation:
   key: Pages
   order: 4
 ---
+
+To be filled, for now the [/slashes](/slashes) page will do.
