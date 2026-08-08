@@ -53,15 +53,15 @@
   }
 }
 
+.icon {
+  vertical-align: -0.25em; /* Adjust to lift the icon slightly */
+  margin-right: 0.1em; /* Spacing between the icon and the text */
+}
+
 .text-icon {
   vertical-align: -0.25em; /* Adjust to lift the icon slightly */
   margin-right: 0.1em; /* Spacing between the icon and the text */
   margin-left: 1em;
-}
-
-.icon {
-  vertical-align: -0.25em; /* Adjust to lift the icon slightly */
-  margin-right: 0.1em; /* Spacing between the icon and the text */
 }
 
 /* Base document font */
