@@ -18,8 +18,8 @@ Here are a couple of my projects. I’ll be expanding this page as I work on and
 
 A work-in-progress Android browser for alternative, small-scale internet protocols like Gemini, Gopher, Spartan, and more. Built with Kotlin and Material 3, Zapri aims to be lightweight, respectful of users' privacy, and accessible for those interested in decentralized web browsing.
 
-> 📦 *Technologies:* Kotlin, Jetpack Compose, Material 3, Gemini/Gopher protocol parsing  
-> ✨ *Status:* Early development — more updates soon!
+> &ZeroWidthSpace;{% icon "blocks", class="icon" %} *Technologies:* Kotlin, Jetpack Compose  
+> &ZeroWidthSpace;{% icon "sparkle", class="icon" %} *Status:* Early development — more updates soon!
 
 ---
 
@@ -27,8 +27,8 @@ A work-in-progress Android browser for alternative, small-scale internet protoco
 
 The source code for [parham.dev](https://parham.dev) itself — a minimalist, fast, privacy-friendly personal site built with [Eleventy](https://11ty.dev){target="_blank" rel="noopener"} and [Simple.css](https://simplecss.org/){target="_blank" rel="noopener"}. This project reflects my interests in clean web development.
 
-> 📦 *Technologies:* Eleventy, Markdown, Simple.css, custom Nunjucks templates  
-> 📌 *Highlights:* Static, no JS required for core functionality
+> &ZeroWidthSpace;{% icon "blocks", class="icon" %} *Technologies:* Eleventy, Simple.css  
+> &ZeroWidthSpace;{% icon "pin", class="icon" %} *Highlights:* Static, no JS required for core functionality
 
 ---
 
