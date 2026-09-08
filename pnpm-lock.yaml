@@ -137,8 +137,8 @@ importers:
         specifier: ^1.3.0
         version: 1.3.0(@11ty/eleventy@3.1.6)
       lucide-static:
-        specifier: ^1.41.0
-        version: 1.41.0
+        specifier: ^1.42.0
+        version: 1.42.0
       markdown-it:
         specifier: ^15.0.1
         version: 15.0.1
@@ -158,8 +158,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       simple-icons:
-        specifier: ^16.29.0
-        version: 16.29.0
+        specifier: ^16.30.0
+        version: 16.30.0
     devDependencies:
       eleventy-plugin-llms:
         specifier: ^0.1.0
@@ -740,8 +740,8 @@ packages:
   list-to-array@1.1.0:
     resolution: {integrity: sha512-+dAZZ2mM+/m+vY9ezfoueVvrgnHIGi5FvgSymbIgJOFwiznWyA59mav95L+Mc6xPtL3s9gm5eNTlNtxJLbNM1g==}
 
-  lucide-static@1.41.0:
-    resolution: {integrity: sha512-39fX7SH+Rwis0oUmLLOipOoFSiJll9yi2DyEGDaE7Sp0qQAEhEfMQ2scQNdWKeGVENGv1uXc5ZeZqBWsuhQSFg==}
+  lucide-static@1.42.0:
+    resolution: {integrity: sha512-S4jgNBM6Tm8TusfIvj2A9KQotIxT8Hsnby3csAVh1LeD3vHgI0li14oCiQmYj+0Jjo/2l7cVzaqgPdwmce338Q==}
 
   luxon@3.7.2:
     resolution: {integrity: sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew==}
@@ -947,8 +947,8 @@ packages:
       '@types/node':
         optional: true
 
-  simple-icons@16.29.0:
-    resolution: {integrity: sha512-4H94f5ZgcCcgJroc902TFlFdgPu2IU2eD7+WebN2Z14xKYrKHeJ4UQcZwzgSuH4Rgzw+jp7sbHl40NefuIEYsg==}
+  simple-icons@16.30.0:
+    resolution: {integrity: sha512-YX/HmgEqjpn5Zs3myzKp8ek5Ti+TdrkvNWn9skGLetg9tOg0cTjYizj9ESAYJn4xwc0GQYVGzQxBELDfbxq7WQ==}
     engines: {node: '>=0.12.18'}
 
   slash@3.0.0:
@@ -1572,7 +1572,7 @@ snapshots:
 
   list-to-array@1.1.0: {}
 
-  lucide-static@1.41.0: {}
+  lucide-static@1.42.0: {}
 
   luxon@3.7.2: {}
 
@@ -1779,7 +1779,7 @@ snapshots:
       '@img/sharp-win32-ia32': 0.35.4
       '@img/sharp-win32-x64': 0.35.4
 
-  simple-icons@16.29.0: {}
+  simple-icons@16.30.0: {}
 
   slash@3.0.0: {}
 
