@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Annotation Mono';
-  src: url('/fonts/AnnotationMono-Regular.woff2') format('woff2');
+  font-family: 'Recursive Mono';
+  src: url('/fonts/RecursiveMonoCslSt-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
@@ -11,7 +11,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: #111b27;
 	background: none;
-	font-family: 'Annotation Mono', Consolas, monospace;
+	font-family: 'Recursive Mono', Consolas, monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
