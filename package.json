@@ -30,7 +30,7 @@
     "markdown-it-attrs": "^5.0.1",
     "markdown-it-collapsible": "^2.0.2",
     "markdown-it-footnote": "^4.0.0",
-    "simple-icons": "^16.35.0"
+    "simple-icons": "^16.36.0"
   },
   "devDependencies": {
     "eleventy-plugin-llms": "^0.1.0"
