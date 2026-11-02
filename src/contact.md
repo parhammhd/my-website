@@ -44,6 +44,7 @@ I have the following accounts on the Fediverse:
 - **Lemmy:** [u/ParhamM94@sh.itjust.works](https://sh.itjust.works/u/ParhamM94){target="_blank" rel="noopener"}
 - **Misskey:** [@ParhamM94@misskey.social](https://misskey.social/@ParhamM94){target="_blank" rel="noopener"}
 - **Pixelfed:** [@ParhamM94@pixelfed.social](https://pixelfed.social/ParhamM94){target="_blank" rel="noopener"}
+- **Loops:** [@ParhamM94@loops.video](https://loops.video/@ParhamM94){target="_blank" rel="noopener"}
 - **Friendica:** [parhamm94@venera.social](https://venera.social/profile/parhamm94){target="_blank" rel="noopener"}
 
 ### Nostr
@@ -55,6 +56,6 @@ I have the following accounts on the Fediverse:
 ### Additional Platforms
 
 - **Bluesky:** [@parham.dev](https://bsky.app/profile/parham.dev){target="_blank" rel="noopener"}
-- **X:** [@ParhamM94](https://x.com/ParhamM94) (This account is private for now.){target="_blank" rel="noopener"}
+- **X:** [@ParhamM94](https://x.com/ParhamM94){target="_blank" rel="noopener"} (This account is private for now.)
 
 Feel free to reach out through any of these platforms!
