@@ -16,15 +16,16 @@ You can send an Email to [contact@parham.dev](mailto:contact@parham.dev), I chec
 
 If you'd like to send an encrypted email, you can use my OpenPGP public key:
 
-- **OpenPGP fingerprint:** `DFD4B5CD9E24215533411AC6334480DD37E2F404`{style="word-break: break-word; white-space: pre-wrap;"}
+- **OpenPGP fingerprint:** `58438A2882EF3CEF22CB8E2767BFBFC32388D81B49BDD6324EAD65468C5A18D7`{style="word-break: break-word; white-space: pre-wrap;"}
 - **OpenPGP key:** [armored key](/public.asc)
-- **Keyserver link:** [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/DFD4B5CD9E24215533411AC6334480DD37E2F404)
+- **WKD URL:** [binary key](/.well-known/openpgpkey/hu/s8y7oh5xrdpu9psba3i5ntk64ohouhga)
+- **Keyserver link:** [PGPony keyserver](https://www.pgpony.app/vks/v1/by-fingerprint/58438A2882EF3CEF22CB8E2767BFBFC32388D81B49BDD6324EAD65468C5A18D7)
 
 ### Keyoxide
 
 You can also find me on **Keyoxide**, a platform for decentralized identity verification:
 
-- **Keyoxide Profile:** [keyoxide.org/dfd4…f404](https://keyoxide.org/dfd4b5cd9e24215533411ac6334480dd37e2f404){target="_blank" rel="noopener"}
+- **Keyoxide Profile:** [keyoxide.org/5843…18D7](https://keyoxide.org/58438A2882EF3CEF22CB8E2767BFBFC32388D81B49BDD6324EAD65468C5A18D7){target="_blank" rel="noopener"}
 
 This profile helps you verify links between my public accounts and cryptographic identity. It's another reliable way to confirm that these accounts really belong to me.
 
