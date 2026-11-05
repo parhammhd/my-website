@@ -33,6 +33,7 @@ Here are the accounts I control:
 - Telegram: [@ParhamM94](https://t.me/ParhamM94){target="_blank" rel="noopener"}
 - Signal: [@ParhamM94.34](https://signal.me/#eu/z_LaeTezPaHGNrxA62gB3XtGKudaNvVoDexaMKROz1ATBYojReNGbpsZ39v5pQFs){target="_blank" rel="noopener"}
 - Discord: [parhamm94](https://discord.com/users/parhamm94){target="_blank" rel="noopener"}
+- Gravatar: [parhamm94](https://gravatar.com/parhamm94){target="_blank" rel="noopener"}
 - YouTube: [@parhamm94](https://youtube.com/@parhamm94){target="_blank" rel="noopener"}
 - Twitch: [parhamm94](https://twitch.tv/parhamm94){target="_blank" rel="noopener"}
 - Reddit: [Parham3679srsr](https://www.reddit.com/u/Parham3679srsr){target="_blank" rel="noopener"}
