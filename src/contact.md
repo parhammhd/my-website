@@ -21,22 +21,18 @@ If you'd like to send an encrypted email, you can use my OpenPGP public key:
 - **[WKD URL](/.well-known/openpgpkey/hu/s8y7oh5xrdpu9psba3i5ntk64ohouhga)**
 - **[PGPony keyserver](https://www.pgpony.app/vks/v1/by-fingerprint/58438A2882EF3CEF22CB8E2767BFBFC32388D81B49BDD6324EAD65468C5A18D7)**
 
-### Code Repositories
+### Signal
 
-You can find my open source projects and contributions on GitHub:
-
-- **GitHub:** [parhammhd](https://github.com/parhammhd){target="_blank" rel="noopener"}
-
-Feel free to explore my repositories, fork projects, or open issues if you have questions or suggestions.
+Signal is my preferred messaging app. You can find me at [ParhamM94.34](https://signal.me/#eu/z_LaeTezPaHGNrxA62gB3XtGKudaNvVoDexaMKROz1ATBYojReNGbpsZ39v5pQFs){target="_blank" rel="noopener"}
 
 ### Fediverse
 
-I have the following accounts on the Fediverse:
+You can contact me on the following accounts:
 
 - **Mastodon:** [@parhamm94@mas.to](https://mas.to/@parhamm94){target="_blank" rel="noopener"}
-- **Lemmy:** [u/ParhamM94@sh.itjust.works](https://sh.itjust.works/u/ParhamM94){target="_blank" rel="noopener"}
+- **Lemmy:** [ParhamM94@sh.itjust.works](https://sh.itjust.works/u/ParhamM94){target="_blank" rel="noopener"}
 - **Misskey:** [@ParhamM94@misskey.social](https://misskey.social/@ParhamM94){target="_blank" rel="noopener"}
-- **Pixelfed:** [@ParhamM94@pixelfed.social](https://pixelfed.social/ParhamM94){target="_blank" rel="noopener"}
+- **Pixelfed:** [ParhamM94@pixelfed.social](https://pixelfed.social/ParhamM94){target="_blank" rel="noopener"}
 - **Loops:** [@ParhamM94@loops.video](https://loops.video/@ParhamM94){target="_blank" rel="noopener"}
 - **Friendica:** [parhamm94@venera.social](https://venera.social/profile/parhamm94){target="_blank" rel="noopener"}
 
@@ -46,9 +42,15 @@ I have the following accounts on the Fediverse:
 - **Username (NIP-05):** `_@parham.dev`{style="word-break: break-word; white-space: pre-wrap;"}
 - **Public key (npub):** `npub1mmuumn4keztaxxd4ntm9lmtq5yltc0rnsvfm7au87wghrj7t6vmsatq0n8`{style="word-break: break-word; white-space: pre-wrap;"}
 
-### Additional Platforms
+### Other Social Media Platforms
 
-- **Bluesky:** [@parham.dev](https://bsky.app/profile/parham.dev){target="_blank" rel="noopener"}
-- **X:** [@ParhamM94](https://x.com/ParhamM94){target="_blank" rel="noopener"} (This account is private for now.)
+- **Bluesky:** [parham.dev](https://bsky.app/profile/parham.dev){target="_blank" rel="noopener"}
+- **X:** [ParhamM94](https://x.com/ParhamM94){target="_blank" rel="noopener"} (This account is private for now.)
 
-Feel free to reach out through any of these platforms!
+### Code Repositories
+
+You can find my open source projects and contributions on GitHub:
+
+- **GitHub:** [parhammhd](https://github.com/parhammhd){target="_blank" rel="noopener"}
+
+Feel free to explore my repositories, fork projects, or open issues if you have questions or suggestions.
