@@ -13,7 +13,6 @@ Welcome to my [/slashes](https://flamedfury.com/slashes){target="_blank" rel="no
 - AI
 - [Blank](/blank)
 - Blogroll
-- Changelog
 - Colophon
 - [Contact](/contact)
 - Death
