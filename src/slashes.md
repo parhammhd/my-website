@@ -29,7 +29,7 @@ Welcome to my [/slashes](https://flamedfury.com/slashes){target="_blank" rel="no
 - Shoebox
 - Sitemap
 - Uses
-- Verify
+- [Verify](/verify)
 - Why
 - Wish
 - Yep
