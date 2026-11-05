@@ -16,10 +16,10 @@ You can send an Email to [contact@parham.dev](mailto:contact@parham.dev), I chec
 
 If you'd like to send an encrypted email, you can use my OpenPGP public key:
 
-- **OpenPGP fingerprint:** `58438A2882EF3CEF22CB8E2767BFBFC32388D81B49BDD6324EAD65468C5A18D7`{style="word-break: break-word; white-space: pre-wrap;"}
-- **OpenPGP key:** [armored key](/public.asc)
-- **WKD URL:** [binary key](/.well-known/openpgpkey/hu/s8y7oh5xrdpu9psba3i5ntk64ohouhga)
-- **Keyserver link:** [PGPony keyserver](https://www.pgpony.app/vks/v1/by-fingerprint/58438A2882EF3CEF22CB8E2767BFBFC32388D81B49BDD6324EAD65468C5A18D7)
+- **Fingerprint:** `58438A2882EF3CEF22CB8E2767BFBFC32388D81B49BDD6324EAD65468C5A18D7`{style="word-break: break-word; white-space: pre-wrap;"}
+- **[Armored key](/public.asc)**
+- **[WKD URL](/.well-known/openpgpkey/hu/s8y7oh5xrdpu9psba3i5ntk64ohouhga)**
+- **[PGPony keyserver](https://www.pgpony.app/vks/v1/by-fingerprint/58438A2882EF3CEF22CB8E2767BFBFC32388D81B49BDD6324EAD65468C5A18D7)**
 
 ### Code Repositories
 
