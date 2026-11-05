@@ -14,7 +14,7 @@ eleventyNavigation:
 
 You can send an Email to [contact@parham.dev](mailto:contact@parham.dev), I check my inbox once a day.
 
-If you'd like to send an encrypted email, you can use my OpenPGP public key:
+If you'd like to send an encrypted email, you can use my PGP public key:
 
 - **Fingerprint:** `58438A2882EF3CEF22CB8E2767BFBFC32388D81B49BDD6324EAD65468C5A18D7`{style="word-break: break-word; white-space: pre-wrap;"}
 - **[Armored key](/public.asc)**
