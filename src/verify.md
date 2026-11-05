@@ -54,7 +54,7 @@ My email addresses are:
 I am also on nostr:
 
 - **Njump page:** [Parham on Nostr](https://njump.me/npub1mmuumn4keztaxxd4ntm9lmtq5yltc0rnsvfm7au87wghrj7t6vmsatq0n8){target="_blank" rel="noopener"}
-- **Username (NIP-05):** `_@parham.dev`{style="word-break: break-word; white-space: pre-wrap;"}
+- **Username (NIP-05):** `parham.dev`{style="word-break: break-word; white-space: pre-wrap;"} or more precisely `_@parham.dev`{style="word-break: break-word; white-space: pre-wrap;"}
 - **Public key (npub):** `npub1mmuumn4keztaxxd4ntm9lmtq5yltc0rnsvfm7au87wghrj7t6vmsatq0n8`{style="word-break: break-word; white-space: pre-wrap;"}
 
 If there's an account claiming to be me that's not on this list, it's **probably** an impersonator.
